@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from 'react';
-import { questions } from './module1/questions';
+import { questions } from '../module2/questions';
 import Link from 'next/link';
 
 type Question = {
@@ -11,7 +11,7 @@ type Question = {
   correctAnswer: number;
 };
 
-const Home = () => {
+const SecondSet = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [userAnswers, setUserAnswers] = useState<number[]>([]);
   const [showResults, setShowResults] = useState(false);
@@ -61,8 +61,9 @@ const Home = () => {
 
   return (
     <>
+    
     <div className="p-6 text-center w-screen h-screen">
-      <h1 className='text-3xl font-bold'>Set 1</h1>
+      <h1 className='text-3xl font-bold'>Set 2</h1>
       <h2 className="text-2xl font-bold mb-4">Question {currentQuestionIndex + 1}/{questions.length}</h2>
       <p className="mb-4">{currentQuestion.question}</p>
       <div className="grid grid-cols-1 gap-4">
@@ -77,17 +78,21 @@ const Home = () => {
         ))}
       </div>
       
-      <Link href={"./secondset"} className='mt-10 flex items-center justify-center text-center w-[200px] h-[50px] bg-blue-500 text-white rounded-[5px]'>
-          <div>Go second set</div>
-      </Link>
+        <Link href={"./"} className='mt-10 flex items-center justify-center text-center w-[200px] h-[50px] bg-blue-500 text-white rounded-[5px]'>
+                <div>Go back to first set</div>
+        </Link>
       
+    
 
       <div className='flex flex-col items-end'>
+
         <p>&copy; topepe</p>
       </div>
+
     </div>
+   
     </>
   );
 };
 
-export default Home;
+export default SecondSet;
