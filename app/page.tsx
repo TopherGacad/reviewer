@@ -1,93 +1,31 @@
-"use client"
-
-import { useState } from 'react';
-import { questions } from './module1/questions';
-import Link from 'next/link';
-
-type Question = {
-  id: number;
-  question: string;
-  options: string[];
-  correctAnswer: number;
-};
+import Link from 'next/link'
+import React from 'react'
+import Image from 'next/image'
 
 const Home = () => {
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [userAnswers, setUserAnswers] = useState<number[]>([]);
-  const [showResults, setShowResults] = useState(false);
-
-  const currentQuestion: Question = questions[currentQuestionIndex];
-
-  const handleAnswer = (selectedOptionIndex: number) => {
-    setUserAnswers([...userAnswers, selectedOptionIndex]);
-
-    if (currentQuestionIndex + 1 < questions.length) {
-      setCurrentQuestionIndex(currentQuestionIndex + 1);
-    } else {
-      setShowResults(true);
-    }
-  };
-
-  const calculateScore = () => {
-    return userAnswers.reduce((score, answer, idx) => {
-      if (answer === questions[idx].correctAnswer) {
-        score++;
-      }
-      return score;
-    }, 0);
-  };
-
-  if (showResults) {
-    const score = calculateScore();
-    return (
-      <div className="p-6 text-center">
-        <h2 className="text-2xl font-bold mb-4">Your Score: {score}/{questions.length}</h2>
-        <h3 className="text-xl font-bold mb-2">Review Incorrect Answers:</h3>
-        {questions.map((question, idx) => {
-          if (userAnswers[idx] !== question.correctAnswer) {
-            return (
-              <div key={question.id} className="mb-4">
-                <p className="font-semibold">{question.question}</p>
-                <p>Your answer: {question.options[userAnswers[idx]]}</p>
-                <p>Correct answer: {question.options[question.correctAnswer]}</p>
-              </div>
-            );
-          }
-          return null;
-        })}
-      </div>
-    );
-  }
-
   return (
-    <>
-    <div className="p-6 text-center w-screen h-screen">
-      <h1 className='text-3xl font-bold'>Set 1</h1>
-      <h2 className="text-2xl font-bold mb-4">Question {currentQuestionIndex + 1}/{questions.length}</h2>
-      <p className="mb-4">{currentQuestion.question}</p>
-      <div className="grid grid-cols-1 gap-4">
-        {currentQuestion.options.map((option, index) => (
-          <button
-            key={index}
-            className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700"
-            onClick={() => handleAnswer(index)}
-          >
-            {option}
-          </button>
-        ))}
+    <div className='bg-[#47366D] text-[#fafafa] flex flex-col w-screen h-screen justify-center items-center text-center mx-auto'>
+      <div className='font-bold text-[36px]'>Oh-May!<br/> <span className='text-[#39ff14]'>Brain</span> Smasher</div>
+      <div>
+        <Image 
+            src="/assets/omay.jpg"
+            width={100}
+            height={50}
+            priority
+            alt='pinisna'
+            className='rounded-[50%] mb-10'
+            />
       </div>
-      
-      <Link href={"./secondset"} className='mt-10 flex items-center justify-center text-center w-[200px] h-[50px] bg-blue-500 text-white rounded-[5px]'>
-          <div>Go second set</div>
-      </Link>
-      
-
-      <div className='flex flex-col items-end'>
-        <p>&copy; topepe</p>
+      <div className='h-[250px] w-[260px] flex flex-col gap-5'>
+        <Link href="./firstset" className='w-full h-14 bg-[#ff5765] flex items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212]'>Module 1: 1st Set</Link>
+        <Link href="./secondset" className='w-full h-14 bg-[#8a6fdf] flex items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212]'>Module 1: 2nd Set</Link>
+        <Link href="./clusterset" className='w-full h-14 bg-[#30d5c8] flex items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212]'>Cluster 1: 1st Set</Link>
+        <Link href="./clusterset2" className='w-full h-14 bg-blue-500 flex items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212]'>Cluster 1: 2nd Set</Link>
       </div>
+      <p className='text-[12px] mt-5'>&copy; topepe - 2024</p>
     </div>
-    </>
-  );
-};
+    
+  )
+}
 
-export default Home;
+export default Home

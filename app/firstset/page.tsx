@@ -1,7 +1,7 @@
 "use client";
 
-import { useState } from 'react';
-import { questions } from '../module2/questions';
+import { useState, useEffect } from 'react';
+import { questions as questionData } from '../module1/questions';
 import Link from 'next/link';
 
 type Question = {
@@ -11,10 +11,23 @@ type Question = {
   correctAnswer: number;
 };
 
+// Function to shuffle the questions array
+const shuffleArray = (array: Question[]) => {
+  return array.sort(() => Math.random() - 0.5);
+};
+
 const Home = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [userAnswers, setUserAnswers] = useState<number[]>([]);
   const [showResults, setShowResults] = useState(false);
+  const [questions, setQuestions] = useState<Question[]>([]);
+
+  // Shuffle the questions when the component loads
+  useEffect(() => {
+    setQuestions(shuffleArray([...questionData]));
+  }, []);
+
+  if (questions.length === 0) return null; // Ensure that questions are loaded before rendering
 
   const currentQuestion: Question = questions[currentQuestionIndex];
 
@@ -48,13 +61,13 @@ const Home = () => {
     let imageSrc;
 
     if (score === totalQuestions) {
-      resultMessage = "Perfect yarn?";
+      resultMessage = "Bat mo Pinerfect?";
       imageSrc = "/assets/perfect.jpg"; // Path to your perfect score image
     } else if (score === half) {
-      resultMessage = "Next time na yung kalahati";
+      resultMessage = "Kulang yung silay mo sa naglalambaras";
       imageSrc = "/assets/muntik.jpg"; // Path to your half score image
     } else if (passed) {
-      resultMessage = "Yabangan mo pa be";
+      resultMessage = "Pasado yarn? bongga ka";
       imageSrc = "/assets/junie.jpg"; // Path to your pass image
     } else {
       resultMessage = "ehh? HAHAHAH";
@@ -69,7 +82,7 @@ const Home = () => {
         <h2 className={`text-xl font-bold mb-4 ${passed ? 'text-green-500' : 'text-red-500'}`}>
           {resultMessage}
         </h2>
-        <h3 className="text-xl font-bold mb-10">Review Incorrect Answers:</h3>
+        <h3 className="text-xl font-bold mb-2">Review Incorrect Answers:</h3>
         {questions.map((question, idx) => {
           if (userAnswers[idx] !== question.correctAnswer) {
             return (
@@ -92,7 +105,7 @@ const Home = () => {
   return (
     <>
       <div className="p-6 text-center w-screen h-screen bg-[#47366D] text-[#fafafa] flex flex-col justify-center">
-        <h1 className='text-3xl font-bold text-[#39ff14]'>Module1: Set 2</h1>
+        <h1 className='text-3xl font-bold text-[#39ff14]'>Module1: Set 1</h1>
         <h2 className="text-2xl font-bold mb-4">Question {currentQuestionIndex + 1} of {questions.length}</h2>
         <p className="mb-4">{currentQuestion.question}</p>
         <div className="grid grid-cols-1 gap-4">
