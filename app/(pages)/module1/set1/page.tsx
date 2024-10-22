@@ -1,8 +1,8 @@
 "use client";
 
-import { useState, useEffect } from 'react';
-import { questions as questionData } from '../module1/questions';
-import Link from 'next/link';
+import { useState, useEffect } from "react";
+import { questions as questionData } from "../../../actions/module1/module1Action1/questions";
+import Link from "next/link";
 
 type Question = {
   id: number;
@@ -76,26 +76,44 @@ const Home = () => {
 
     return (
       <div className="p-6 text-center">
-        <h2 className="text-2xl font-bold mb-4">Your Score: {score}/{totalQuestions}</h2>
+        <h2 className="text-2xl font-bold mb-4">
+          Your Score: {score}/{totalQuestions}
+        </h2>
         {/* Display the image before the result message */}
-        <img src={imageSrc} alt={resultMessage} className="mx-auto mb-4 w-32 h-32" />
-        <h2 className={`text-xl font-bold mb-4 ${passed ? 'text-green-500' : 'text-red-500'}`}>
+        <img
+          src={imageSrc}
+          alt={resultMessage}
+          className="mx-auto mb-4 w-32 h-32"
+        />
+        <h2
+          className={`text-xl font-bold mb-4 ${
+            passed ? "text-green-500" : "text-red-500"
+          }`}
+        >
           {resultMessage}
         </h2>
         <h3 className="text-xl font-bold mb-2">Review Incorrect Answers:</h3>
         {questions.map((question, idx) => {
           if (userAnswers[idx] !== question.correctAnswer) {
             return (
-              <div key={question.id} className="mb-4 border-[1px] border-solid border-[#808080]">
+              <div
+                key={question.id}
+                className="mb-4 border-[1px] border-solid border-[#808080]"
+              >
                 <p className="font-semibold">{question.question}</p>
                 <p>Your answer: {question.options[userAnswers[idx]]}</p>
-                <p>Correct answer: {question.options[question.correctAnswer]}</p>
+                <p>
+                  Correct answer: {question.options[question.correctAnswer]}
+                </p>
               </div>
             );
           }
           return null;
         })}
-        <Link href={"./"} className='mt-10 flex items-center justify-center text-center w-[150px] h-[50px] bg-blue-500 text-white rounded-[5px]'>
+        <Link
+          href={"/"}
+          className="mt-10 flex items-center justify-center text-center w-[150px] h-[50px] bg-blue-500 text-white rounded-[5px]"
+        >
           Return to Menu
         </Link>
       </div>
@@ -105,8 +123,10 @@ const Home = () => {
   return (
     <>
       <div className="p-6 text-center w-screen h-screen bg-[#47366D] text-[#fafafa] flex flex-col justify-center">
-        <h1 className='text-3xl font-bold text-[#39ff14]'>Module1: Set 1</h1>
-        <h2 className="text-2xl font-bold mb-4">Question {currentQuestionIndex + 1} of {questions.length}</h2>
+        <h1 className="text-3xl font-bold text-[#39ff14]">Module1: Set 1</h1>
+        <h2 className="text-2xl font-bold mb-4">
+          Question {currentQuestionIndex + 1} of {questions.length}
+        </h2>
         <p className="mb-4">{currentQuestion.question}</p>
         <div className="grid grid-cols-1 gap-4">
           {currentQuestion.options.map((option, index) => (
@@ -120,11 +140,14 @@ const Home = () => {
           ))}
         </div>
 
-        <Link href={"./"} className='mt-10 flex items-center justify-center text-center w-[150px] h-[50px] bg-blue-500 text-white rounded-[5px]'>
+        <Link
+          href={"/"}
+          className="mt-10 flex items-center justify-center text-center w-[150px] h-[50px] bg-blue-500 text-white rounded-[5px]"
+        >
           Return to Menu
         </Link>
 
-        <div className='flex flex-col items-end'>
+        <div className="flex flex-col items-end">
           <p>&copy; topepe</p>
         </div>
       </div>
