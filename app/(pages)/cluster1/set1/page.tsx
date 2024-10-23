@@ -99,7 +99,7 @@ const SecondSet = () => {
           return (
             <div
               key={question.id}
-              className={`mb-4 p-4 border-4 rounded-lg ${
+              className={`mb-4 p-4 border-4 rounded-lg${
                 isCorrect ? "border-green-500" : "border-red-500"
               }`}
             >

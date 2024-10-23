@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { questions as questionData } from "@/app/actions/cluster4/Cluster4Action2/questions";
+import { question as questionData } from "@/app/actions/cluster5/cluster5Action2/questions";
 import Link from "next/link";
 
 type Question = {
@@ -112,7 +112,7 @@ const SecondSet = () => {
           );
         })}
         <Link
-          href={"/"}
+          href={"/umak"}
           className="mt-10 flex items-center justify-center text-center w-[200px] h-[50px] bg-blue-500 text-white rounded-[5px]"
         >
           <div>Return to Menu</div>
@@ -125,7 +125,7 @@ const SecondSet = () => {
 
   return (
     <div className="p-6 text-center w-screen h-screen bg-[#47366D] text-[#fafafa] flex flex-col justify-center">
-      <h1 className="text-3xl font-bold text-[#39ff14]">Cluster 4: Set 2</h1>
+      <h1 className="text-3xl font-bold text-[#39ff14]">Cluster 5: Set 2</h1>
       <h2 className="text-2xl font-bold mb-4">
         Question {currentQuestionIndex + 1} of {questions.length}
       </h2>
@@ -142,7 +142,7 @@ const SecondSet = () => {
         ))}
       </div>
       <Link
-        href={"/"}
+        href={"/umak"}
         className="mt-10 flex items-center justify-center text-center w-[150px] h-[50px] bg-blue-500 text-white rounded-[5px]"
       >
         <div>Return to Menu</div>

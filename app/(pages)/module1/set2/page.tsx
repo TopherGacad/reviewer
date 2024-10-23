@@ -75,7 +75,7 @@ const Home = () => {
     }
 
     return (
-      <div className="p-6 text-center">
+      <div className="p-6 text-center bg-[#fafafa]">
         <h2 className="text-2xl font-bold mb-4">
           Your Score: {score}/{totalQuestions}
         </h2>
