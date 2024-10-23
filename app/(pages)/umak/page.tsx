@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 
 const Umak = () => {
   // Define the required code
-  const correctCode = "1234"; // Replace with your desired code
+  const correctCode = "ilabjonini"; // Replace with your desired code
   const router = useRouter();
 
   // Set up state for code input and authentication status
@@ -90,78 +90,142 @@ const Umak = () => {
 
   // Render the protected content if authenticated
   return (
-    <div className="bg-[#47366D] text-[#fafafa] flex flex-col w-screen h-screen justify-center items-center text-center mx-auto">
-      <div className="font-bold text-[36px]">
-        Oh-May!
-        <br /> <span className="text-[#39ff14]">Brain</span> Smasher
-      </div>
-      <div>
-        <Image
-          src="/assets/omay.jpg"
-          width={100}
-          height={50}
-          priority
-          alt="pinisna"
-          className="rounded-[50%] mb-10"
-        />
-      </div>
-      <div className="h-[250px] w-[260px] flex gap-5">
-        <div className="h-full w-[50%] flex flex-col gap-5">
-          <Link
-            href="/umak/module1/set1"
-            className="w-full h-14 bg-[#ff5765] flex items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212]"
-          >
-            Module 1: 1st Set
-          </Link>
-          <Link
-            href="/umak/module1/set2"
-            className="w-full h-14 bg-[#ff5765] flex items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212]"
-          >
-            Module 1: 2nd Set
-          </Link>
-          <Link
-            href="/umak/cluster1/set1"
-            className="w-full h-14 bg-[#8a6fdf] flex items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212]"
-          >
-            Cluster 1: 1st Set
-          </Link>
-          <Link
-            href="/umak/cluster1/set2"
-            className="w-full h-14 bg-[#8a6fdf] flex items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212]"
-          >
-            Cluster 1: 2nd Set
-          </Link>
-        </div>
-        <div className="h-full w-[50%] flex flex-col gap-5">
-          <Link
-            href="/umak/cluster2/set1"
-            className="w-full h-14 bg-[#30d5c8] flex items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212]"
-          >
-            Cluster 2: 1st Set
-          </Link>
-          <Link
-            href="/umak/cluster2/set2"
-            className="w-full h-14 bg-[#30d5c8] flex items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212]"
-          >
-            Cluster 2: 2nd Set
-          </Link>
-          <Link
-            href="/umak/cluster3/set1"
-            className="w-full h-14 bg-blue-500 flex items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212]"
-          >
-            Cluster 3: 1st Set
-          </Link>
-          <Link
-            href="/umak/cluster3/set2"
-            className="w-full h-14 bg-blue-500 flex items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212]"
-          >
-            Cluster 3: 2nd Set
-          </Link>
-        </div>
-      </div>
-      <button onClick={handleLogout} className="mt-5 border-[1px] border-solid px-5 rounded-[5px] ">Logout</button>
-      <p className="text-[12px] mt-5">&copy; topepe - 2024</p>
+    // <div className="bg-[#47366D] text-[#fafafa] flex flex-col w-screen h-screen justify-center items-center text-center mx-auto">
+    //   <div className="font-bold text-[36px] mt-10">
+    //     Oh-May!
+    //     <br /> <span className="text-[#39ff14]">Brain</span> Smasher
+    //   </div>
+    //   <div>
+    //     <Image
+    //       src="/assets/omay.jpg"
+    //       width={100}
+    //       height={50}
+    //       priority
+    //       alt="pinisna"
+    //       className="rounded-[50%] mb-10"
+    //     />
+    //   </div>
+    //   <div className="h-[450px] w-[260px] flex flex-col gap-5">
+    //       <Link
+    //         href="/umak/module1/set1"
+    //         className="w-full h-14 bg-[#ff5765] flex items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212]"
+    //       >
+    //         Module 1: 1st Set
+    //       </Link>
+    //       <Link
+    //         href="/umak/module1/set2"
+    //         className="w-full h-14 bg-[#ff5765] flex items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212]"
+    //       >
+    //         Module 1: 2nd Set
+    //       </Link>
+    //       <Link
+    //         href="/umak/cluster1/set1"
+    //         className="w-full h-14 bg-[#8a6fdf] flex items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212]"
+    //       >
+    //         Cluster 1: 1st Set
+    //       </Link>
+    //       <Link
+    //         href="/umak/cluster1/set2"
+    //         className="w-full h-14 bg-[#8a6fdf] flex items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212]"
+    //       >
+    //         Cluster 1: 2nd Set
+    //       </Link>
+       
+        
+    //       <Link
+    //         href="/umak/cluster2/set1"
+    //         className="w-full h-14 bg-[#30d5c8] flex items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212]"
+    //       >
+    //         Cluster 2: 1st Set
+    //       </Link>
+    //       <Link
+    //         href="/umak/cluster2/set2"
+    //         className="w-full h-14 bg-[#30d5c8] flex items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212]"
+    //       >
+    //         Cluster 2: 2nd Set
+    //       </Link>
+    //       <Link
+    //         href="/umak/cluster3/set1"
+    //         className="w-full h-14 bg-blue-500 flex items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212]"
+    //       >
+    //         Cluster 3: 1st Set
+    //       </Link>
+    //       <Link
+    //         href="/umak/cluster3/set2"
+    //         className="w-full h-14 bg-blue-500 flex items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212]"
+    //       >
+    //         Cluster 3: 2nd Set
+    //       </Link>
+    //       <Link
+    //         href="/umak/cluster4/set1"
+    //         className="w-full h-14 bg-[#ff5765] flex items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212]"
+    //       >
+    //         Cluster 4: 1st Set
+    //       </Link>
+    //       <Link
+    //         href="/umak/cluster4/set2"
+    //         className="w-full h-14 bg-[#ff5765] flex items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212]"
+    //       >
+    //         Cluster 4: 2nd Set
+    //       </Link>
+        
+    //   </div>
+    //   <button onClick={handleLogout} className="mt-5 border-[1px] border-solid px-5 rounded-[5px] ">Logout</button>
+    //   <p className="text-[12px] mt-5">&copy; topepe - 2024</p>
+    // </div>
+    <div className='bg-[#47366D] text-[#fafafa] flex flex-col w-screen h-screen mx-auto'>
+    {/* Navbar */}
+    <div className='h-[40px] bg-[#58408d] flex items-center pl-5 gap-3 md:h-[60px] md:pl-10 py-5'>
+      <Image
+        src="/assets/dino.jpg"
+        width={50}
+        height={50}
+        priority
+        alt='pinisna'
+        className='md:w-[80px]'
+      />
+      <span className='font-bold md:text-[20px]'>OHMY </span>
     </div>
+
+    {/* Hero Section */}
+    <div className='h-[100px] px-5 my-5 py-2 flex flex-col justify-center md:h-[150px] md:px-10 md:my-10'>
+      <div className='font-bold text-[30px] text-[#6BE07B] md:text-[50px]'>Let's Review!</div>
+      <div className='text-[14px] text-[#c0b7d3] md:text-[20px]'>Goodluck, future RRT</div>
+    </div>
+
+    <div className='h-full w-full flex flex-col py-2 px-2 md:py-6 gap-5'>
+      <div className='flex gap-2 md:gap-5 justify-center items-center'>
+        <Link href="./umak/module1/set1" className='w-[48%] h-[90px] md:h-[100px] bg-[#ff5765] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Module 1: 1st Set <br/><span className='font-thin text-[14px] md:text-[16px] text-[#72242b]'>50 items test</span></Link>
+        <Link href="./umak/module1/set2" className='w-[48%] h-[90px] md:h-[100px] bg-[#ff5765] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Module 1: 2nd Set <br/><span className='font-thin text-[14px] md:text-[16px] text-[#72242b]'>50 items test</span></Link>
+      </div>
+      <div className='flex gap-2 md:gap-5 justify-center items-center'>
+        <Link href="./umak/cluster1/set1" className='w-[48%] h-[90px] md:h-[100px] bg-[#da9a5f] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Cluster 1: 1st Set <br/><span className='font-thin text-[14px] md:text-[16px] text-[#94653a]'>50 items test</span></Link>
+        <Link href="./umak/cluster1/set2" className='w-[48%] h-[90px] md:h-[100px] bg-[#da9a5f] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Cluster 1: 2nd Set <br/><span className='font-thin text-[14px] md:text-[16px] text-[#94653a]'>50 items test</span></Link>
+      </div>
+      
+      <div className='flex gap-2 md:gap-5 justify-center items-center'>
+        <Link href="./umak/cluster2/set1" className='w-[48%] h-[90px] md:h-[100px] bg-[#30d5c8] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Cluster 2: 1st Set <br/><span className='font-thin text-[14px] md:text-[16px] text-[#197069]'>30 items test</span></Link>
+        <Link href="./umak/cluster2/set2" className='w-[48%] h-[90px] md:h-[100px] bg-[#30d5c8] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Cluster 2: 2nd Set <br/><span className='font-thin text-[14px] md:text-[16px] text-[#197069]'>30 items test</span></Link>
+      </div>
+
+      <div className='flex gap-2 md:gap-5 justify-center items-center'>
+        <Link href="./umak/cluster3/set1" className='w-[48%] h-[90px] md:h-[100px] bg-blue-500 flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Cluster 3: 1st Set <br/><span className='font-thin text-[14px] md:text-[16px] text-blue-800'>30 items test</span></Link>
+        <Link href="./umak/cluster3/set2" className='w-[48%] h-[90px] md:h-[100px] bg-blue-500 flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Cluster 3: 2nd Set <br/><span className='font-thin text-[14px] md:text-[16px] text-blue-800'>30 items test</span></Link>
+      </div>
+
+      <div className='flex gap-2 md:gap-5 justify-center items-center'>
+        <Link href="./umak/cluster4/set1" className='w-[48%] h-[90px] md:h-[100px] bg-[#40ac4e] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Cluster 4: 1st Set <br/><span className='font-thin text-[14px] md:text-[16px] text-[#23682c]'>30 items test</span></Link>
+        <Link href="./umak/cluster4/set2" className='w-[48%] h-[90px] md:h-[100px] bg-[#40ac4e] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Cluster 4: 2nd Set <br/><span className='font-thin text-[14px] md:text-[16px] text-[#23682c]'>40 items test</span></Link>
+      </div>
+    </div>
+
+    <div className="w-full h-[50px] flex items-center justify-center">
+        <button onClick={handleLogout} className="mt-5 w-[30%] border-[1px] border-solid px-5 rounded-[5px] ">Logout</button>
+    </div>
+    
+    
+    <p className='text-[12px] mt-5'>&copy; topepe - 2024 | v.1.2</p>
+  </div>
   );
 };
 
