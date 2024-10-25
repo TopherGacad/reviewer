@@ -55,8 +55,7 @@ const Umak = () => {
           src="/assets/shrekloading.jpg"
           width={100}
           height={50}
-          priority={true}
-          unoptimized
+          priority
           alt="pinisna"
           className="mb-10"
         />
@@ -96,7 +95,7 @@ const Umak = () => {
         {/* Navbar */}
         <div className='h-[40px] bg-[#58408d] flex items-center pl-5 gap-3 md:h-[60px] md:pl-10 py-5'>
             <Image
-                src="/assets/dino.jpg"
+                src="assets/dino.jpg"
                 width={50}
                 height={50}
                 priority
@@ -160,7 +159,7 @@ const Umak = () => {
         </div>
     
     
-        <p className='text-[12px] mt-5 bottom-0 mx-5'>&copy; topepe - 2024 | v.1.2</p>
+        <p className='text-[12px] mt-5 bottom-0'>&copy; topepe - 2024 | v.1.2</p>
   </div>
   );
 };
