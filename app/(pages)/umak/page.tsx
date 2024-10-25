@@ -52,7 +52,7 @@ const Umak = () => {
     return (
       <div className="flex flex-col justify-center items-center h-screen bg-[#47366D] text-[#fafafa] font-bold text-[28px]">
         <Image
-          src="assets/shrekloading.jpg"
+          src="/assets/shrekloading.jpg"
           width={100}
           height={50}
           priority
