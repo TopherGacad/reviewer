@@ -21,7 +21,7 @@ export const questions = [
     id: 53,
     question:
       "What is the total effective dose (in Sieverts) if a radiologic technologist is exposed to 2 mGy of alpha particles and 4 mGy of gamma radiation? Assume radiation weighting factors of 20 for alpha and 1 for gamma.",
-    options: ["0.024 Sv", "0.026 Sv", "0.032 Sv", "0.048 Sv"],
+    options: ["0.044 Sv", "0.026 Sv", "0.032 Sv", "0.048 Sv"],
     correctAnswer: 0,
     rationale:
       "Total dose = (2 mGy * 20) + (4 mGy * 1) = 40 + 4 = 44 mGy = 0.044 Sv. However, this is the *equivalent dose*. The effective dose considers tissue weighting factors.",
@@ -45,7 +45,7 @@ export const questions = [
       "Increase mAs by 50%",
       "No change",
     ],
-    correctAnswer: 1,
+    correctAnswer: 0,
     rationale:
       "Moving from an 8:1 to a 16:1 grid requires doubling the mAs to compensate for the increased grid ratio, which absorbs more scatter.",
   },
@@ -68,7 +68,7 @@ export const questions = [
     question:
       "Calculate the entrance skin dose (ESD) for a chest x-ray that delivers an exposure of 10 mGy at 100 cm SID. If the SID is reduced to 50 cm, what is the new ESD?",
     options: ["20 mGy", "40 mGy", "80 mGy", "160 mGy"],
-    correctAnswer: 3,
+    correctAnswer: 1,
     rationale:
       "ESD follows the inverse square law. Halving the distance (100 cm to 50 cm) results in a 4x increase in dose: 10 mGy * 4 = 40 mGy.",
   },
@@ -104,7 +104,7 @@ export const questions = [
     question:
       "A patient receives an effective dose of 2 Sv from a diagnostic procedure. If the tissue weighting factor for the organ exposed is 0.05, what was the absorbed dose (in Gy)?",
     options: ["10 Gy", "20 Gy", "30 Gy", "40 Gy"],
-    correctAnswer: 1,
+    correctAnswer: 3,
     rationale:
       "The effective dose is the product of the absorbed dose and the tissue weighting factor. Thus, 2 Sv = absorbed dose * 0.05, giving absorbed dose = 2 Sv / 0.05 = 40 Gy.",
   },
@@ -131,7 +131,7 @@ export const questions = [
     question:
       "For a barium enema, a technologist uses an exposure time of 0.1 seconds with a tube current of 300 mA. What is the resulting mAs?",
     options: ["30 mAs", "60 mAs", "90 mAs", "120 mAs"],
-    correctAnswer: 1,
+    correctAnswer: 0,
     rationale: "mAs = mA * time. So, 300 mA * 0.1 s = 30 mAs.",
   },
   {
@@ -162,7 +162,7 @@ export const questions = [
     question:
       "A portable chest x-ray is performed at 80 kVp, 2 mAs at 180 cm SID. What will the new mAs be if the SID is reduced to 90 cm to maintain the same image exposure?",
     options: ["0.5 mAs", "1 mAs", "4 mAs", "8 mAs"],
-    correctAnswer: 1,
+    correctAnswer: 0,
     rationale:
       "Using the inverse square law, (180/90)^2 = 4. To maintain exposure, mAs is divided by 4: 2 mAs / 4 = 0.5 mAs.",
   },
@@ -308,7 +308,7 @@ export const questions = [
     question:
       "A radiographer exposes a chest x-ray at 110 kVp, 2.5 mAs, and 100 cm SID. If the exposure is repeated at 200 cm SID, what should the new mAs be to maintain the same exposure?",
     options: ["5 mAs", "7.5 mAs", "10 mAs", "12.5 mAs"],
-    correctAnswer: 0,
+    correctAnswer: 2,
     rationale:
       "Doubling the SID from 100 cm to 200 cm increases the exposure area by a factor of 4. To maintain the same exposure, mAs must also increase by a factor of 4, so 2.5 mAs * 4 = 10 mAs.",
   },
@@ -317,7 +317,7 @@ export const questions = [
     question:
       "A technologist is performing an AP projection of the lumbar spine at 85 kVp and 20 mAs. If the kVp is increased by 15%, what should the new mAs be to maintain the same exposure?",
     options: ["10 mAs", "12 mAs", "15 mAs", "20 mAs"],
-    correctAnswer: 2,
+    correctAnswer: 0,
     rationale:
       "The 15% rule suggests that increasing kVp by 15% allows a reduction in mAs by half. Therefore, the new mAs should be 20 mAs ÷ 2 = 10 mAs.",
   },
@@ -537,5 +537,4 @@ export const questions = [
     rationale:
       "AEC automatically terminates the exposure when the image receptor has received the correct amount of radiation, ensuring optimal exposure.",
   },
-  
 ];

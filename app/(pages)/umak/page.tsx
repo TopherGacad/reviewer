@@ -95,7 +95,7 @@ const Umak = () => {
         {/* Navbar */}
         <div className='h-[40px] bg-[#58408d] flex items-center pl-5 gap-3 md:h-[60px] md:pl-10 py-5'>
             <Image
-                src="assets/dino.jpg"
+                src="/assets/dino.jpg"
                 width={50}
                 height={50}
                 priority
