@@ -55,7 +55,8 @@ const Umak = () => {
           src="/assets/shrekloading.jpg"
           width={100}
           height={50}
-          priority
+          priority={true}
+          unoptimized
           alt="pinisna"
           className="mb-10"
         />
