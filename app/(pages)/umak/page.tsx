@@ -105,13 +105,25 @@ const Umak = () => {
             <span className='font-bold md:text-[20px]'>OHMY </span>
         </div>
 
+
         {/* Hero Section */}
         <div className='h-[100px] px-5 my-5 py-2 flex flex-col justify-center md:h-[150px] md:px-10 md:my-10'>
             <div className='font-bold text-[30px] text-[#6BE07B] md:text-[50px]'>Let's Review!</div>
             <div className='text-[14px] text-[#c0b7d3] md:text-[20px]'>Goodluck, future RRT</div>
         </div>
 
-        <div className='h-full w-full flex flex-col py-2 px-2 md:py-6 gap-5 md:'>
+        <div className='font-bold text-[16px] text-[#a184dd] md:text-[20px] px-5'>Weekly Mock Exam - 50 items</div>
+
+        <div className="w-full h-full flex flex-col pt-2 pb-5 px-5 md:py-6 gap-5">
+          <div className='flex gap-2 md:gap-5 justify-center items-center'>
+            <Link href="./umak/mockexam1/moderate" className='w-[48%] h-[90px] md:h-[100px] text-[#47366D] bg-[#fafafa] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Mock Exam W1<br/><span className='font-bold text-[14px] md:text-[16px] text-[#dab44b]'>Difficulty: Moderate</span></Link>
+            <Link href="./umak/mockexam1/hard" className='w-[48%] h-[90px] md:h-[100px] text-[#47366D] bg-[#fafafa] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Mock Exam W2<br/><span className='font-bold text-[14px] md:text-[16px] text-[#e03c3c]'>Difficulty: Hard</span></Link>
+          </div>
+        </div>
+
+        <hr className="mx-10 border-[#c0b7d3] py-8"/>
+
+        <div className='h-full w-full flex flex-col py-2 px-5 md:py-6 gap-5'>
             <div className='flex gap-2 md:gap-5 justify-center items-center'>
                 <Link href="./umak/module1/set1" className='w-[48%] h-[90px] md:h-[100px] bg-[#ff5765] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Module 1: 1st Set <br/><span className='font-thin text-[14px] md:text-[16px] text-[#72242b]'>50 items test</span></Link>
                 <Link href="./umak/module1/set2" className='w-[48%] h-[90px] md:h-[100px] bg-[#ff5765] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Module 1: 2nd Set <br/><span className='font-thin text-[14px] md:text-[16px] text-[#72242b]'>50 items test</span></Link>
@@ -147,7 +159,7 @@ const Umak = () => {
         </div>
     
     
-        <p className='text-[12px] mt-5 bottom-0'>&copy; topepe - 2024 | v.1.2</p>
+        <p className='text-[12px] mt-5 bottom-0 mx-5'>&copy; topepe - 2024 | v.1.2</p>
   </div>
   );
 };
