@@ -117,7 +117,11 @@ const Umak = () => {
         <div className="w-full h-full flex flex-col pt-2 pb-5 px-5 md:py-6 gap-5">
           <div className='flex gap-2 md:gap-5 justify-center items-center'>
             <Link href="./umak/mockexam1/moderate" className='w-[48%] h-[90px] md:h-[100px] text-[#47366D] bg-[#fafafa] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Mock Exam W1<br/><span className='font-bold text-[14px] md:text-[16px] text-[#dab44b]'>Difficulty: Moderate</span></Link>
-            <Link href="./umak/mockexam1/hard" className='w-[48%] h-[90px] md:h-[100px] text-[#47366D] bg-[#fafafa] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Mock Exam W2<br/><span className='font-bold text-[14px] md:text-[16px] text-[#e03c3c]'>Difficulty: Hard</span></Link>
+            <Link href="./umak/mockexam1/hard" className='w-[48%] h-[90px] md:h-[100px] text-[#47366D] bg-[#fafafa] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Mock Exam W1<br/><span className='font-bold text-[14px] md:text-[16px] text-[#e03c3c]'>Difficulty: Hard</span></Link>
+          </div>
+          <div className='flex gap-2 md:gap-5 justify-center items-center'>
+            <Link href="./umak/mockexam2/difficult" className='w-[48%] h-[90px] md:h-[100px] text-[#47366D] bg-[#fafafa] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Mock Exam W2 Set 1<br/><span className='font-bold text-[14px] md:text-[16px] text-[#e03c3c]'>Difficulty: Difficult</span></Link>
+            <Link href="./umak/mockexam2/difficult2" className='w-[48%] h-[90px] md:h-[100px] text-[#47366D] bg-[#fafafa] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Mock Exam W2 Set 2<br/><span className='font-bold text-[14px] md:text-[16px] text-[#e03c3c]'>Difficulty: Difficult</span></Link>
           </div>
         </div>
 
