@@ -133,17 +133,17 @@ const Umak = () => {
                 <Link href="./umak/module1/set2" className='w-[48%] h-[90px] md:h-[100px] bg-[#ff5765] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Module 1: 2nd Set <br/><span className='font-thin text-[14px] md:text-[16px] text-[#72242b]'>50 items test</span></Link>
             </div>
             <div className='flex gap-2 md:gap-5 justify-center items-center'>
-                <Link href="./umak/cluster1" className='w-[48%] h-[90px] md:h-[100px] bg-[#da9a5f] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Cluster 1 <br/><span className='font-thin text-[14px] md:text-[16px] text-[#94653a]'>50 items test</span></Link>
-                <Link href="./umak/cluster2" className='w-[48%] h-[90px] md:h-[100px] bg-[#30d5c8] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Cluster 2 <br/><span className='font-thin text-[14px] md:text-[16px] text-[#197069]'>30 items test</span></Link>
+                <Link href="./umak/cluster1" className='w-[48%] h-[90px] md:h-[100px] bg-[#da9a5f] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Cluster 1 <br/><span className='font-thin text-[14px] md:text-[16px] text-[#94653a]'>2 Sets</span></Link>
+                <Link href="./umak/cluster2" className='w-[48%] h-[90px] md:h-[100px] bg-[#30d5c8] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Cluster 2 <br/><span className='font-thin text-[14px] md:text-[16px] text-[#197069]'>2 Sets</span></Link>
             </div>
 
             <div className='flex gap-2 md:gap-5 justify-center items-center'>
-                <Link href="./umak/cluster3" className='w-[48%] h-[90px] md:h-[100px] bg-blue-500 flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Cluster 3 <br/><span className='font-thin text-[14px] md:text-[16px] text-blue-800'>30 items test</span></Link>
-                <Link href="./umak/cluster4" className='w-[48%] h-[90px] md:h-[100px] bg-[#40ac4e] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Cluster 4 <br/><span className='font-thin text-[14px] md:text-[16px] text-[#23682c]'>30 items test</span></Link>
+                <Link href="./umak/cluster3" className='w-[48%] h-[90px] md:h-[100px] bg-blue-500 flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Cluster 3 <br/><span className='font-thin text-[14px] md:text-[16px] text-blue-800'>2 Sets</span></Link>
+                <Link href="./umak/cluster4" className='w-[48%] h-[90px] md:h-[100px] bg-[#40ac4e] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Cluster 4 <br/><span className='font-thin text-[14px] md:text-[16px] text-[#23682c]'>3 Sets</span></Link>
             </div>
 
             <div className='flex gap-2 md:gap-5 items-center'>
-                <Link href="./umak/cluster5" className='w-[48%] h-[90px] md:h-[100px] bg-[#d86280] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Cluster 5 <br/><span className='font-thin text-[14px] md:text-[16px] text-[#92394f]'>30 items test</span></Link>
+                <Link href="./umak/cluster5" className='w-[48%] h-[90px] md:h-[100px] bg-[#d86280] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Cluster 5 <br/><span className='font-thin text-[14px] md:text-[16px] text-[#92394f]'>2 Sets</span></Link>
             </div>
         </div>
 
