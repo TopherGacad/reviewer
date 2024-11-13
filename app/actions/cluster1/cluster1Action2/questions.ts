@@ -236,8 +236,8 @@ export const questions = [
           "100 rad",
           "300 rad"
         ],
-        correctAnswer: 3,
-        rationale: "The skin erythema dose (SED50) to affect 50% of exposed individuals is about 300 rad."
+        correctAnswer: 2,
+        rationale: "The skin erythema dose (SED50) to affect 50% of exposed individuals is about 100 rad."
       },
       {
         id: 71,
