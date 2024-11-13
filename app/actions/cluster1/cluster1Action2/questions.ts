@@ -200,7 +200,7 @@ export const questions = [
           "Effective Dose",
           "Equivalent Dose"
         ],
-        correctAnswer: 3,
+        correctAnswer: 2,
         rationale: "Equivalent Dose accounts for the different biologic effects of various types of radiation."
       },
       {
@@ -596,8 +596,8 @@ export const questions = [
           "40 mGy/hr",
           "80 mGy/hr"
         ],
-        correctAnswer: 0,
-        rationale: "Using the inverse square law, the dose rate at 4 meters will be reduced to 10 mGy/hr."
+        correctAnswer: 1,
+        rationale: "Using the inverse square law, the dose rate at 4 meters will be reduced to 20 mGy/hr."
       }
       
       
