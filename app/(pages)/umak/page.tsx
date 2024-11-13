@@ -152,7 +152,7 @@ const Umak = () => {
         </div>
     
     
-        <p className='text-[12px] mt-5 bottom-0'>&copy; topepe - 2024 | v.1.2</p>
+        <p className='text-[12px] mt-5 bottom-0'>&copy; topepe - 2024 | v.1.3</p>
   </div>
   );
 };

@@ -50,6 +50,7 @@ const Home = () => {
       <Link href="./umak" className='mb-10'>
         <div className='flex justify-center items-center gap-2 text-[#6BE07B]'>Access premium <FaArrowRight /></div>
       </Link>
+      
 
         <p className='text-[12px] mt-5'>&copy; topepe - 2024 | v.1.2</p>
     </div>
