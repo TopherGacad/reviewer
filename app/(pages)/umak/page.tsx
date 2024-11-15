@@ -138,11 +138,11 @@ const Umak = () => {
             </div>
 
             <div className='flex gap-2 md:gap-5 justify-center items-center'>
-                <Link href="./umak/cluster3" className='w-[48%] h-[90px] md:h-[100px] bg-blue-500 flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Cluster 3 <br/><span className='font-thin text-[14px] md:text-[16px] text-blue-800'>2 Sets</span></Link>
+                <Link href="./umak/cluster3" className='w-[48%] h-[90px] md:h-[100px] bg-blue-500 flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Cluster 3 <br/><span className='font-thin text-[14px] md:text-[16px] text-blue-800'>3 Sets</span></Link>
                 <Link href="./umak/cluster4" className='w-[48%] h-[90px] md:h-[100px] bg-[#40ac4e] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Cluster 4 <br/><span className='font-thin text-[14px] md:text-[16px] text-[#23682c]'>3 Sets</span></Link>
             </div>
 
-            <div className='flex gap-2 md:gap-5 items-center'>
+            <div className='flex gap-2 md:gap-5 items-center justify-center'>
                 <Link href="./umak/cluster5" className='w-[48%] h-[90px] md:h-[100px] bg-[#d86280] flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Cluster 5 <br/><span className='font-thin text-[14px] md:text-[16px] text-[#92394f]'>2 Sets</span></Link>
             </div>
         </div>

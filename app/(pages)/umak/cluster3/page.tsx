@@ -35,6 +35,7 @@ const Cluster3Menu = () => {
         <div className="w-full h-full flex flex-col items-center pt-2 pb-5 px-2 md:py-6 gap-3 md:gap-5">
             <Link href="/umak/cluster3/set1" className='w-[80%] md:w-[70%] h-[90px] md:h-[100px] text-[#fafafa] bg-blue-500 flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Set 1<br/><span className='font-bold text-[14px] md:text-[16px] text-[#dab44b]'>Difficulty: Moderate</span></Link>
             <Link href="/umak/cluster3/set2" className='w-[80%] md:w-[70%] h-[90px] md:h-[100px] text-[#fafafa] bg-blue-500 flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Set 2<br/><span className='font-bold text-[14px] md:text-[16px] text-[#e03c3c]'>Difficulty: Hard</span></Link>
+            <Link href="/umak/cluster3/lower-ext-posi" className='w-[80%] md:w-[70%] h-[90px] md:h-[100px] text-[#fafafa] bg-blue-500 flex flex-col items-center justify-center rounded-[5px] hover:bg-[yellow] hover:text-[#121212] font-bold md:text-[20px]'>Lower-Ext-Posi<br/><span className='font-bold text-[14px] md:text-[16px] text-[#e03c3c]'>Difficulty: Hard</span></Link>
         </div>
 
         <p className='text-[12px] mt-5 bottom-0'>&copy; topepe - 2024 | v.1.2</p>
