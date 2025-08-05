@@ -2,8 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body{
-  background-color: #47366D;
-  height: 100vh;
-  width: 100vw;
+html,
+body {
+  background-color: #47366d;
+}
+
+@layer components {
+  .my-container {
+    @apply w-11/12 container mx-auto;
+  }
 }
