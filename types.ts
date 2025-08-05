@@ -9,5 +9,5 @@ export type Question = {
 export type QuestionSet = {
   label: string;
   questions: Question[];
-  codeRequired?: boolean; // ✅ Make it optional
+  codeRequired?: boolean; 
 };
