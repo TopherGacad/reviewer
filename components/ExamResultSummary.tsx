@@ -16,16 +16,16 @@ const ExamResultSummary: React.FC<Props> = ({ score, totalQuestions, questions, 
 
   if (score === totalQuestions) {
     resultMessage = "Perfect ka kasi";
-    imageSrc = "/assets/perfect.jpg";
+    imageSrc = "perfect.jpg";
   } else if (score === halfScore) {
     resultMessage = "Listen - Look and Listetn & Learn";
-    imageSrc = "/assets/muntik.jpg";
+    imageSrc = "muntik.jpg";
   } else if (score >= halfScore) {
     resultMessage = "Lagi ka naman pasado sakin be";
-    imageSrc = "/assets/junie.jpg";
+    imageSrc = "junie.jpg";
   } else {
     resultMessage = "laban lang be!";
-    imageSrc = "/assets/iyak.jpg";
+    imageSrc = "iyak.jpg";
   }
 
   return (

@@ -1,7 +1,7 @@
 const Logo = () => {
   return (
     <img
-      src="/assets/dino.jpg"
+      src="/dino.jpg"
       width={50}
       height={50}
       alt="pinisna"
