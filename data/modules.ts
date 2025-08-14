@@ -77,4 +77,123 @@ export const modules = [
       },
     ],
   },
+
+  {
+    title: "IPE",
+    variant: "cyan",
+    sets: [
+      {
+        label: "A",
+        href: "/exams/custom_ipe_marva_a",
+        items: "40 items test",
+        textClass: "text-[#197069]",
+      },
+      {
+        label: "B",
+        href: "/exams/custom_ipe_marva_b",
+        items: "40 items test",
+        textClass: "text-[#197069]",
+      },
+      {
+        label: "C",
+        href: "/exams/custom_ipe_marva_c",
+        items: "40 items test",
+        textClass: "text-[#197069]",
+      },
+      {
+        label: "D",
+        href: "/exams/custom_ipe_marva_d",
+        items: "40 items test",
+        textClass: "text-[#197069]",
+      },
+    ],
+  },
+
+  {
+    title: "POI",
+    variant: "red",
+    sets: [
+      {
+        label: "A",
+        href: "/exams/poi_a",
+        items: "40 items test",
+        textClass: "text-[#197069]",
+      },
+      {
+        label: "B",
+        href: "/exams/poi_b",
+        items: "40 items test",
+        textClass: "text-[#197069]",
+      },
+      {
+        label: "C",
+        href: "/exams/poi_c",
+        items: "40 items test",
+        textClass: "text-[#197069]",
+      },
+      {
+        label: "D",
+        href: "/exams/poi_d",
+        items: "40 items test",
+        textClass: "text-[#197069]",
+      },
+    ],
+  },
+
+  {
+    title: "RAD QUALI",
+    variant: "blue",
+    sets: [
+      {
+        label: "A",
+        href: "/exams/poi_a",
+        items: "40 items test",
+        textClass: "text-[#197069]",
+      },
+      {
+        label: "B",
+        href: "/exams/poi_b",
+        items: "40 items test",
+        textClass: "text-[#197069]",
+      },
+      {
+        label: "C",
+        href: "/exams/poi_c",
+        items: "40 items test",
+        textClass: "text-[#197069]",
+      },
+      {
+        label: "D",
+        href: "/exams/poi_d",
+        items: "40 items test",
+        textClass: "text-[#197069]",
+      },
+    ],
+  },
+
+  {
+    title: "RPC",
+    variant: "green",
+    sets: [
+      {
+        label: "",
+        href: "/exams/rpc",
+        items: "RPC Exam",
+        textClass: "text-[#197069]",
+      },
+    ],
+  },
+
+  {
+    title: "IEM",
+    variant: "cyan",
+    sets: [
+      {
+        label: "A",
+        href: "/exams/iem",
+        items: "IEM Exam",
+        textClass: "text-[#197069]",
+      },
+    ],
+  },
 ];

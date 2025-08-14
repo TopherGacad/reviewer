@@ -9,5 +9,6 @@ export type Question = {
 export type QuestionSet = {
   label: string;
   questions: Question[];
+  description?: string;
   codeRequired?: boolean; 
 };
