@@ -28,6 +28,7 @@ const Exam = () => {
   const set = rawQuestions[id];
 
   const questionData = set.questions;
+  const label = set.label;
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [userAnswers, setUserAnswers] = useState<number[]>([]);
@@ -62,6 +63,17 @@ const Exam = () => {
   if (showResults) {
     const score = calculateScore();
     const totalQuestions = questions.length;
+
+    const scoreData = { score, taken: Date.now(), label, totalQuestions };
+
+    if (!localStorage.getItem("scores")) {
+      const scores = [scoreData];
+      localStorage.setItem("scores", JSON.stringify(scores));
+    } else {
+      const scores = JSON.parse(localStorage.getItem("scores") as string);
+      scores.push(scoreData);
+      localStorage.setItem("scores", JSON.stringify(scores));
+    }
 
     return (
       <ExamResultSummary

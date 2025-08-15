@@ -32,7 +32,7 @@ const ExamResultSummary: React.FC<Props> = ({ score, totalQuestions, questions, 
     <div className="my-container text-white">
       <HomeButton message="Finish Exam" />
 
-      <div className="flex flex-col lg:flex-row items-center p-20 justify-center gap-8 mb-6 text-center">
+      <div className="flex flex-col lg:flex-row items-center mt-10 p-2 lg:p-20 justify-center gap-8 mb-6 text-center">
         <div className="flex flex-col items-center">
           <img
             src={imageSrc}
@@ -45,7 +45,6 @@ const ExamResultSummary: React.FC<Props> = ({ score, totalQuestions, questions, 
             {resultMessage}
           </h2>
         </div>
-
         <div className="flex flex-col justify-center items-center ">
           <div
             className={`w-40 h-40 flex items-center justify-center rounded-full text-white text-5xl font-extrabold shadow-inner ${
@@ -85,11 +84,12 @@ const ExamResultSummary: React.FC<Props> = ({ score, totalQuestions, questions, 
                     {question.options[userAnswers[idx]]}
                   </span>
                 </div>
-
-                <div className="flex items-center gap-2">
-                  <span className="font-medium text-gray-700">Correct answer:</span>
-                  <span className="text-green-600 font-semibold">{question.options[question.correctAnswer]}</span>
-                </div>
+                {!isCorrect && (
+                  <div className="flex items-center gap-2">
+                    <span className="font-medium text-gray-700">Correct answer:</span>
+                    <span className="text-green-600 font-semibold">{question.options[question.correctAnswer]}</span>
+                  </div>
+                )}
               </div>
 
               {question.rationale && (

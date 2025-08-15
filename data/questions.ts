@@ -87,9 +87,7 @@ export const questions: Record<string, QuestionSet> = {
     questions: rad_quality,
   },
 
-  // TODO: Remove sets. Combine all sets to one large array. Just pick 40 random question
   // TODO: Add year category
-  // TODO: Save score history using localStorage
   // TODO: Optimize module and question set. Read filename instead of registering them manually.
   rpc: {
     label: "Custom: RPC A",

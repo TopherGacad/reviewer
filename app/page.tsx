@@ -3,7 +3,7 @@ import ModuleGrid from "@/components/ModuleGrid";
 
 const Home = () => {
   return (
-    <div className="bg-[#47366D] text-[#fafafa]">
+    <div className="bg-[#47366D] text-[#fafafa] ">
       <Hero />
       <ModuleGrid />
     </div>

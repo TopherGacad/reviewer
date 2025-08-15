@@ -16,13 +16,14 @@ const ModuleGrid = () => {
   return (
     <div className="my-container">
       <div className="grid grid-cols-1 gap-2 md:gap-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        {visibleModules.map((mod) => {
+        {visibleModules.map((mod, index) => {
           return (
             <ModuleCard
+              index={index}
               key={mod.href}
               href={mod.href}
               title={mod.title}
-              description={mod.items}
+              description={mod.description}
               category={mod.category}
             />
           );
