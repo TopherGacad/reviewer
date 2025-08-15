@@ -10,5 +10,5 @@ export type QuestionSet = {
   label: string;
   questions: Question[];
   description?: string;
-  codeRequired?: boolean; 
+  codeRequired?: boolean;
 };

@@ -20,9 +20,7 @@ export default function ModuleLink({ href, title, label, items, textClass, bgCla
       href={href}
       className={`${baseButton} ${bgClass}`}
     >
-      <span>
-        {title}: {label}
-      </span>
+      <span>{label ? `${title}: ${label}` : title}</span>
       <span className={itemText}>{items}</span>
     </Link>
   );

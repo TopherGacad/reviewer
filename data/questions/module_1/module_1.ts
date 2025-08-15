@@ -1,13 +1,349 @@
-export const module_1_set_2 = [
+export const module_1 = [
   {
     id: 1,
+    question: "What is the building block of matter?",
+    options: ["Energy", "Atom", "Molecule", "Electron"],
+    correctAnswer: 1, // the index of the correct answer
+  },
+  {
+    id: 2,
+    question: "What type of energy is associated with motion?",
+    options: ["Potential Energy", "Chemical Energy", "Kinetic Energy", "Nuclear Energy"],
+    correctAnswer: 2,
+  },
+  {
+    id: 3,
+    question: "What is the SI unit for energy?",
+    options: ["Coulomb", "Joule", "Watt", "Volt"],
+    correctAnswer: 1,
+  },
+  {
+    id: 4,
+    question: "Which form of energy is used in X-rays?",
+    options: ["Electrical", "Thermal", "Electromagnetic", "Nuclear"],
+    correctAnswer: 2,
+  },
+  {
+    id: 5,
+    question: "Who discovered X-rays?",
+    options: ["Marie Curie", "Wilhelm Roentgen", "Albert Einstein", "Thomas Edison"],
+    correctAnswer: 1,
+  },
+  {
+    id: 6,
+    question: "What is ionizing radiation capable of doing?",
+    options: [
+      "Reflecting light",
+      "Removing an orbital electron from an atom",
+      "Creating heat energy",
+      "Emitting visible light",
+    ],
+    correctAnswer: 1,
+  },
+  {
+    id: 7,
+    question: "Which of the following is NOT a type of ionizing radiation?",
+    options: ["X-rays", "Gamma rays", "UV light", "Visible light"],
+    correctAnswer: 3,
+  },
+  {
+    id: 8,
+    question: "Which particle is emitted in beta radiation?",
+    options: ["Proton", "Neutron", "Electron", "Positron"],
+    correctAnswer: 2,
+  },
+  {
+    id: 9,
+    question: "The largest source of natural environmental radiation comes from which element?",
+    options: ["Uranium", "Thorium", "Radon", "Potassium-40"],
+    correctAnswer: 2,
+  },
+  {
+    id: 10,
+    question: "Which scientist invented the Crookes tube?",
+    options: ["Michael Pupin", "Sir William Crookes", "Charles Leonard", "William Rollins"],
+    correctAnswer: 1,
+  },
+  {
+    id: 11,
+    question: "Who demonstrated the use of radiographic intensifying screens?",
+    options: ["Thomas Edison", "Michael Pupin", "H.C. Snook", "William D. Coolidge"],
+    correctAnswer: 1,
+  },
+  {
+    id: 12,
+    question: "Which of the following is used to reduce scatter radiation?",
+    options: ["Fluoroscopy", "X-ray Voltage", "Collimation", "Protective Apparel"],
+    correctAnswer: 2,
+  },
+  {
+    id: 13,
+    question: "What is measured in kilovolt peak (kVp)?",
+    options: ["X-ray voltage", "X-ray current", "Radiographic time", "Radiation exposure"],
+    correctAnswer: 0,
+  },
+  {
+    id: 14,
+    question: "What is the principle of ALARA in radiology?",
+    options: [
+      "Always lower applied radiation annually",
+      "Keep radiation exposures as low as reasonably achievable",
+      "Increase radiation exposure for better imaging",
+      "All exposures must be reduced by half",
+    ],
+    correctAnswer: 1,
+  },
+  {
+    id: 15,
+    question: "What is the role of filtration in X-ray systems?",
+    options: [
+      "Absorbing high-energy X-rays",
+      "Reducing exposure time",
+      "Absorbing low-energy X-rays",
+      "Improving image sharpness",
+    ],
+    correctAnswer: 2,
+  },
+  {
+    id: 16,
+    question: "Which year did MRI become an accepted imaging modality?",
+    options: ["1950", "1960", "1970", "1980"],
+    correctAnswer: 3,
+  },
+  {
+    id: 17,
+    question: "Who received the Nobel Prize for the discovery of X-rays?",
+    options: ["Albert Einstein", "Thomas Edison", "Wilhelm Roentgen", "William D. Coolidge"],
+    correctAnswer: 2,
+  },
+  {
+    id: 18,
+    question: "What does a Potter-Bucky grid help to reduce?",
+    options: ["X-ray blur", "Image distortion", "Scatter radiation", "Exposure time"],
+    correctAnswer: 2,
+  },
+  {
+    id: 19,
+    question: "What is the energy equivalence formula by Einstein?",
+    options: ["E=mc²", "E=hv", "E=1/2mv²", "E=F×d"],
+    correctAnswer: 0,
+  },
+  {
+    id: 20,
+    question: "Which protective apparel is commonly lead-impregnated?",
+    options: ["Gloves and apron", "Helmets", "Boots", "Glasses"],
+    correctAnswer: 0,
+  },
+  {
+    id: 21,
+    question: "What is the main use of collimation in X-ray machines?",
+    options: [
+      "To increase exposure",
+      "To reduce scatter radiation",
+      "To amplify the X-ray beam",
+      "To create a clearer image",
+    ],
+    correctAnswer: 1,
+  },
+  {
+    id: 22,
+    question: "Which radiation is responsible for the largest dose in man-made radiation exposure?",
+    options: ["Nuclear power", "Diagnostic X-rays", "Radon gas", "Cosmic rays"],
+    correctAnswer: 1,
+  },
+  {
+    id: 23,
+    question: "Which of these is an example of electromagnetic radiation?",
+    options: ["Alpha particles", "Gamma rays", "Beta particles", "Neutrons"],
+    correctAnswer: 1,
+  },
+  {
+    id: 24,
+    question: "What unit is used to measure radiation dose?",
+    options: ["Kilovolts", "Millirem", "Joule", "Tesla"],
+    correctAnswer: 1,
+  },
+  {
+    id: 25,
+    question: "Which device improves image contrast by limiting the size of the X-ray beam?",
+    options: ["Fluoroscope", "Collimator", "Grid", "Intensifying screen"],
+    correctAnswer: 1,
+  },
+  {
+    id: 26,
+    question: "Which particle is removed from an atom during ionization?",
+    options: ["Proton", "Neutron", "Electron", "Photon"],
+    correctAnswer: 2,
+  },
+  {
+    id: 27,
+    question: "Which is the largest source of natural radiation?",
+    options: ["Cosmic rays", "Terrestrial radiation", "Radon", "Internally-deposited radionuclides"],
+    correctAnswer: 2,
+  },
+  {
+    id: 28,
+    question: "Who developed the fluoroscope?",
+    options: ["Wilhelm Roentgen", "Thomas Edison", "H.C. Snook", "William Rollins"],
+    correctAnswer: 1,
+  },
+  {
+    id: 29,
+    question: "What is the primary cause of image blur in radiography?",
+    options: ["Scatter radiation", "Long exposure time", "Low kVp", "High mA"],
+    correctAnswer: 1,
+  },
+  {
+    id: 30,
+    question: "Which of the following can absorb low-energy X-rays?",
+    options: ["Lead", "Aluminum", "Zinc", "Calcium"],
+    correctAnswer: 1,
+  },
+  {
+    id: 31,
+    question: "What is the function of gonadal shielding?",
+    options: [
+      "To improve image clarity",
+      "To protect reproductive organs from radiation",
+      "To reduce scatter radiation",
+      "To prevent exposure to visible light",
+    ],
+    correctAnswer: 1,
+  },
+  {
+    id: 32,
+    question: "Which substance was first used by Roentgen in X-ray fluorescence experiments?",
+    options: ["Barium platinocyanide", "Calcium tungstate", "Zinc cadmium sulfide", "Lead"],
+    correctAnswer: 0,
+  },
+  {
+    id: 33,
+    question: "Who was the first person to die due to X-ray radiation exposure?",
+    options: ["Wilhelm Roentgen", "Clarence Dally", "Thomas Edison", "H.C. Snook"],
+    correctAnswer: 1,
+  },
+  {
+    id: 34,
+    question: "What material is often used in protective barriers for radiology rooms?",
+    options: ["Aluminum", "Lead", "Zinc", "Iron"],
+    correctAnswer: 1,
+  },
+  {
+    id: 35,
+    question: "What is the main function of an intensifying screen?",
+    options: [
+      "To reduce patient exposure to X-rays",
+      "To amplify the X-ray beam",
+      "To increase radiation dose",
+      "To focus the image",
+    ],
+    correctAnswer: 0,
+  },
+  {
+    id: 36,
+    question: "Who demonstrated the use of double emulsion film?",
+    options: ["Michael Pupin", "Charles L. Leonard", "William Coolidge", "Gustav Bucky"],
+    correctAnswer: 1,
+  },
+  {
+    id: 37,
+    question: "What is the purpose of filtration in radiography?",
+    options: [
+      "To increase exposure time",
+      "To filter out low-energy X-rays",
+      "To focus the X-ray beam",
+      "To scatter radiation",
+    ],
+    correctAnswer: 1,
+  },
+  {
+    id: 38,
+    question: "Which year marked the discovery of X-rays?",
+    options: ["1895", "1901", "1904", "1913"],
+    correctAnswer: 0,
+  },
+  {
+    id: 39,
+    question: "What is the primary unit used to measure radiation exposure in diagnostic radiology?",
+    options: ["Rem", "Sievert", "Gray", "Rad"],
+    correctAnswer: 3,
+  },
+  {
+    id: 40,
+    question: "Which scientist is credited with the invention of the moving grid?",
+    options: ["Gustav Bucky", "William Coolidge", "Hollis Potter", "Thomas Edison"],
+    correctAnswer: 2,
+  },
+  {
+    id: 41,
+    question: "What is the primary source of cosmic radiation?",
+    options: ["The atmosphere", "Uranium deposits", "The sun and stars", "Potassium-40"],
+    correctAnswer: 2,
+  },
+  {
+    id: 42,
+    question: "Which scientist introduced the interrupterless transformer?",
+    options: ["Wilhelm Roentgen", "H.C. Snook", "William Coolidge", "Thomas Edison"],
+    correctAnswer: 1,
+  },
+  {
+    id: 43,
+    question: "Which type of radiation includes alpha and beta particles?",
+    options: ["Electromagnetic radiation", "Particulate radiation", "Gamma radiation", "Ultraviolet radiation"],
+    correctAnswer: 1,
+  },
+  {
+    id: 44,
+    question: "Who is credited with developing the stationary grid?",
+    options: ["Thomas Edison", "H.C. Snook", "Gustav Bucky", "William Coolidge"],
+    correctAnswer: 2,
+  },
+  {
+    id: 45,
+    question: "What is the force exerted on a body under the influence of gravity called?",
+    options: ["Mass", "Weight", "Energy", "Power"],
+    correctAnswer: 1,
+  },
+  {
+    id: 46,
+    question: "What material is often used in the construction of protective lead aprons?",
+    options: ["Zinc", "Aluminum", "Lead", "Copper"],
+    correctAnswer: 2,
+  },
+  {
+    id: 47,
+    question: "Which year did Roentgen receive the Nobel Prize for Physics?",
+    options: ["1895", "1901", "1904", "1913"],
+    correctAnswer: 1,
+  },
+  {
+    id: 48,
+    question: "Who demonstrated the first application of collimation and filtration?",
+    options: ["Michael Pupin", "William Rollins", "Wilhelm Roentgen", "H.C. Snook"],
+    correctAnswer: 1,
+  },
+  {
+    id: 49,
+    question: "Which principle refers to the interchangeable nature of matter and energy?",
+    options: ["Theory of relativity", "ALARA principle", "Ionization theory", "Quantum mechanics"],
+    correctAnswer: 0,
+  },
+  {
+    id: 50,
+    question: "What device was introduced in 1950 to enhance fluoroscopy?",
+    options: ["Intensifying screen", "Moving grid", "Image intensifier", "Potter-Bucky grid"],
+    correctAnswer: 2,
+  },
+
+  {
+    id: 201,
     question:
       "Which type of ionizing radiation is primarily responsible for causing ionization in biological tissues during X-ray procedures?",
     options: ["Alpha particles", "Gamma rays", "X-rays", "Beta particles"],
     correctAnswer: 2,
   },
   {
-    id: 2,
+    id: 202,
     question:
       "During a radiologic procedure, the technologist needs to adjust the kilovoltage (kVp). Increasing the kVp results in:",
     options: [
@@ -19,28 +355,28 @@ export const module_1_set_2 = [
     correctAnswer: 2,
   },
   {
-    id: 3,
+    id: 203,
     question:
       "Which of the following materials is most commonly used to filter out low-energy X-rays in diagnostic radiology?",
     options: ["Lead", "Aluminum", "Tungsten", "Copper"],
     correctAnswer: 1,
   },
   {
-    id: 4,
+    id: 204,
     question:
       "In the event of an X-ray overexposure, which of the following radiation protection principles should be prioritized to minimize patient dose?",
     options: ["Increase shielding", "Use collimation", "Reduce exposure time", "Increase distance from the source"],
     correctAnswer: 2,
   },
   {
-    id: 5,
+    id: 205,
     question:
       "Which component in the X-ray tube is responsible for the production of electrons through thermionic emission?",
     options: ["Cathode", "Anode", "Focusing cup", "Filament"],
     correctAnswer: 3,
   },
   {
-    id: 6,
+    id: 206,
     question: "What is the purpose of using a grid during radiographic imaging?",
     options: [
       "To enhance image brightness",
@@ -51,7 +387,7 @@ export const module_1_set_2 = [
     correctAnswer: 2,
   },
   {
-    id: 7,
+    id: 207,
     question: "The ALARA principle in radiologic protection stands for:",
     options: [
       "Always Lower Absorbed Radiation Accurately",
@@ -62,14 +398,14 @@ export const module_1_set_2 = [
     correctAnswer: 2,
   },
   {
-    id: 8,
+    id: 208,
     question:
       "Which interaction between X-rays and matter primarily contributes to image formation in diagnostic radiography?",
     options: ["Compton scattering", "Photoelectric effect", "Pair production", "Coherent scattering"],
     correctAnswer: 1,
   },
   {
-    id: 9,
+    id: 209,
     question: "Which of the following best describes ionizing radiation?",
     options: [
       "It causes thermal energy absorption",
@@ -80,26 +416,26 @@ export const module_1_set_2 = [
     correctAnswer: 2,
   },
   {
-    id: 10,
+    id: 2010,
     question:
       "A technologist notices that image blur occurs during a radiographic examination. Which factor is most likely to contribute to this?",
     options: ["High kVp", "Low mA", "Long exposure time", "Use of a grid"],
     correctAnswer: 2,
   },
   {
-    id: 11,
+    id: 2011,
     question: "The largest contributor to man-made ionizing radiation exposure in the general population is:",
     options: ["Nuclear power plants", "Diagnostic X-rays", "Radiation therapy", "Air travel"],
     correctAnswer: 1,
   },
   {
-    id: 12,
+    id: 2012,
     question: "Which of the following is considered a non-ionizing form of electromagnetic radiation?",
     options: ["X-rays", "Gamma rays", "UV light", "Visible light"],
     correctAnswer: 3,
   },
   {
-    id: 13,
+    id: 2013,
     question: "In radiographic practice, what is the function of the collimator?",
     options: [
       "To adjust the intensity of the X-ray beam",
@@ -110,13 +446,13 @@ export const module_1_set_2 = [
     correctAnswer: 2,
   },
   {
-    id: 14,
+    id: 2014,
     question: "Which scientist is associated with the development of the moving grid used to reduce scatter radiation?",
     options: ["Gustav Bucky", "Wilhelm Roentgen", "Hollis Potter", "Thomas Edison"],
     correctAnswer: 2,
   },
   {
-    id: 15,
+    id: 2015,
     question:
       "A radiologic technologist is working with a pregnant patient. To minimize fetal radiation exposure, the technologist should:",
     options: [
@@ -128,7 +464,7 @@ export const module_1_set_2 = [
     correctAnswer: 1,
   },
   {
-    id: 16,
+    id: 2016,
     question: "The primary advantage of using a radiographic intensifying screen is to:",
     options: [
       "Increase image sharpness",
@@ -139,19 +475,19 @@ export const module_1_set_2 = [
     correctAnswer: 2,
   },
   {
-    id: 17,
+    id: 2017,
     question: "In radiology, the energy of X-rays is measured in:",
     options: ["Volts", "Watts", "Electron volts (eV)", "Joules"],
     correctAnswer: 2,
   },
   {
-    id: 18,
+    id: 2018,
     question: "Which device in radiology serves to convert light energy into electrical signals for image formation?",
     options: ["Cathode", "Anode", "Photomultiplier tube", "Collimator"],
     correctAnswer: 2,
   },
   {
-    id: 19,
+    id: 2019,
     question:
       "What is the most effective way to reduce exposure to scatter radiation for both the patient and radiologic technologist?",
     options: [
@@ -163,38 +499,38 @@ export const module_1_set_2 = [
     correctAnswer: 3,
   },
   {
-    id: 20,
+    id: 2020,
     question: "Which of the following types of energy are released during a chemical reaction?",
     options: ["Kinetic energy", "Chemical energy", "Thermal energy", "Electromagnetic energy"],
     correctAnswer: 1,
   },
   {
-    id: 21,
+    id: 2021,
     question: "X-ray photons are primarily produced by which process in the X-ray tube?",
     options: ["Photoelectric absorption", "Bremsstrahlung radiation", "Compton scattering", "Pair production"],
     correctAnswer: 1,
   },
   {
-    id: 22,
+    id: 2022,
     question:
       "Which type of radiation is used in the treatment of certain cancers due to its high penetrating power and ionizing capability?",
     options: ["Visible light", "X-rays", "Gamma rays", "Microwaves"],
     correctAnswer: 2,
   },
   {
-    id: 23,
+    id: 2023,
     question: "What is the typical annual dose of radiation from natural environmental sources for an average person?",
     options: ["50 mrem/year", "300 mrem/year", "600 mrem/year", "1000 mrem/year"],
     correctAnswer: 1,
   },
   {
-    id: 24,
+    id: 2024,
     question: "Who is credited with inventing the fluoroscope?",
     options: ["Wilhelm Roentgen", "Thomas Edison", "Gustav Bucky", "William Rollins"],
     correctAnswer: 1,
   },
   {
-    id: 25,
+    id: 2025,
     question: "Which of the following best describes the photoelectric effect?",
     options: [
       "X-rays passing through the patient without interaction",
@@ -205,7 +541,7 @@ export const module_1_set_2 = [
     correctAnswer: 1,
   },
   {
-    id: 26,
+    id: 2026,
     question: "The image receptor in digital radiography primarily functions to:",
     options: [
       "Capture scattered X-rays",
@@ -216,20 +552,20 @@ export const module_1_set_2 = [
     correctAnswer: 1,
   },
   {
-    id: 27,
+    id: 2027,
     question:
       "When a technologist increases the SID (source-to-image distance), what effect does this have on the image?",
     options: ["Increases magnification", "Reduces patient dose", "Increases image contrast", "Reduces image sharpness"],
     correctAnswer: 1,
   },
   {
-    id: 28,
+    id: 2028,
     question: "Who developed the Coolidge X-ray tube, which is still the basis for modern X-ray tubes?",
     options: ["Thomas Edison", "Wilhelm Roentgen", "William D. Coolidge", "Michael Pupin"],
     correctAnswer: 2,
   },
   {
-    id: 29,
+    id: 2029,
     question: "Which of the following is the best practice when examining a patient using ionizing radiation?",
     options: [
       "Never use gonadal shielding",
@@ -240,13 +576,13 @@ export const module_1_set_2 = [
     correctAnswer: 2,
   },
   {
-    id: 30,
+    id: 2030,
     question: "Which factor contributes most to the development of image blur?",
     options: ["Use of high kVp", "Long exposure time", "Low patient exposure", "Use of collimation"],
     correctAnswer: 1,
   },
   {
-    id: 31,
+    id: 2031,
     question: "The primary purpose of using lead-lined protective apparel in radiology is to:",
     options: [
       "Increase image sharpness",
@@ -257,26 +593,26 @@ export const module_1_set_2 = [
     correctAnswer: 2,
   },
   {
-    id: 32,
+    id: 2032,
     question:
       "Which of the following increases the likelihood of the photoelectric effect occurring during a radiologic exam?",
     options: ["High kVp", "Low atomic number of the target material", "Low kVp", "Use of non-ionizing radiation"],
     correctAnswer: 2,
   },
   {
-    id: 33,
+    id: 2033,
     question: "The SI unit for radiation absorbed dose is the:",
     options: ["Sievert", "Gray", "Rad", "Rem"],
     correctAnswer: 1,
   },
   {
-    id: 34,
+    id: 2034,
     question: "Which process is most responsible for generating X-rays in diagnostic radiology?",
     options: ["Compton scattering", "Bremsstrahlung radiation", "Coherent scattering", "Pair production"],
     correctAnswer: 1,
   },
   {
-    id: 35,
+    id: 2035,
     question: "What is the main purpose of using beam collimation during radiographic exams?",
     options: [
       "To increase patient exposure",
@@ -287,32 +623,32 @@ export const module_1_set_2 = [
     correctAnswer: 2,
   },
   {
-    id: 36,
+    id: 2036,
     question: "Which interaction between X-rays and matter results in the creation of an ion pair?",
     options: ["Compton scattering", "Coherent scattering", "Photoelectric effect", "Pair production"],
     correctAnswer: 2,
   },
   {
-    id: 37,
+    id: 2037,
     question: "In fluoroscopy, which device is used to amplify light for better image quality?",
     options: ["Grid", "Intensifier", "Collimator", "Filtration"],
     correctAnswer: 1,
   },
   {
-    id: 38,
+    id: 2038,
     question:
       "Which element is most commonly used for X-ray filtration due to its ability to absorb low-energy photons?",
     options: ["Copper", "Lead", "Aluminum", "Zinc"],
     correctAnswer: 2,
   },
   {
-    id: 39,
+    id: 2039,
     question: "The energy of X-ray photons is typically expressed in:",
     options: ["Amps", "Volts", "Electron volts (eV)", "Joules"],
     correctAnswer: 2,
   },
   {
-    id: 40,
+    id: 2040,
     question: "What is the primary purpose of the grid in radiology?",
     options: [
       "To increase patient exposure",
@@ -323,7 +659,7 @@ export const module_1_set_2 = [
     correctAnswer: 1,
   },
   {
-    id: 41,
+    id: 2041,
     question: "The Coolidge X-ray tube was a significant advancement because it allowed for:",
     options: [
       "Reduction in scatter radiation",
@@ -334,14 +670,14 @@ export const module_1_set_2 = [
     correctAnswer: 2,
   },
   {
-    id: 42,
+    id: 2042,
     question:
       "Which protective barrier should always be used when performing radiographic procedures to limit radiation exposure?",
     options: ["Fluorescent barrier", "Lead-lined barrier", "Filtration barrier", "Intensifying screen"],
     correctAnswer: 1,
   },
   {
-    id: 43,
+    id: 2043,
     question: "In radiologic imaging, what is the main consequence of increasing the mA?",
     options: [
       "Increased patient dose and increased image brightness",
@@ -352,13 +688,13 @@ export const module_1_set_2 = [
     correctAnswer: 0,
   },
   {
-    id: 44,
+    id: 2044,
     question: "Which scientist is credited with demonstrating the first application of collimation and filtration?",
     options: ["Thomas Edison", "William Rollins", "Wilhelm Roentgen", "Gustav Bucky"],
     correctAnswer: 1,
   },
   {
-    id: 45,
+    id: 2045,
     question: "In digital radiography, the term 'dynamic range' refers to:",
     options: [
       "The range of X-ray energies used during imaging",
@@ -369,7 +705,7 @@ export const module_1_set_2 = [
     correctAnswer: 1,
   },
   {
-    id: 46,
+    id: 2046,
     question: "A higher atomic number in target material results in which of the following?",
     options: [
       "Increased Compton scattering",
@@ -380,7 +716,7 @@ export const module_1_set_2 = [
     correctAnswer: 1,
   },
   {
-    id: 47,
+    id: 2047,
     question: "The primary radiation safety recommendation for technologists during fluoroscopy is to:",
     options: [
       "Increase kVp",
@@ -391,13 +727,13 @@ export const module_1_set_2 = [
     correctAnswer: 1,
   },
   {
-    id: 48,
+    id: 2048,
     question: "Which unit is used to measure radiation exposure to biological tissue?",
     options: ["Gray", "Rem", "Sievert", "Rad"],
     correctAnswer: 2,
   },
   {
-    id: 49,
+    id: 2049,
     question: "In radiographic practice, the term ‘scatter radiation’ refers to:",
     options: [
       "Radiation that passes through the patient without interaction",
@@ -408,7 +744,7 @@ export const module_1_set_2 = [
     correctAnswer: 2,
   },
   {
-    id: 50,
+    id: 2050,
     question:
       "What is the cardinal rule of radiation protection that emphasizes the importance of keeping the distance from the radiation source as large as possible?",
     options: ["ALARA", "Inverse square law", "Radiation threshold", "Compton effect"],

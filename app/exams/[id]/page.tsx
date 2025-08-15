@@ -9,9 +9,8 @@ import PageNotFound from "@/components/PageNotFound";
 import { Question } from "@/types";
 import { useUnlockCode } from "@/hooks/useUnlockCode";
 
-const shuffleArray = (array: Question[]) => {
-  return array.sort(() => Math.random() - 0.5);
-};
+const shuffleArray = (array: Question[], sampleSize = 40): Question[] =>
+  array.toSorted(() => Math.random() - 0.5).slice(0, Math.min(sampleSize, array.length));
 
 const Exam = () => {
   const params = useParams();

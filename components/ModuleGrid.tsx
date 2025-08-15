@@ -1,55 +1,33 @@
 "use client";
 
 import { modules } from "@/data/modules";
-import ModuleLink from "./ModuleLink";
 import { useUnlockCode } from "@/hooks/useUnlockCode";
-
-function getVariantClasses(variant: string) {
-  switch (variant) {
-    case "red":
-      return "bg-red-400";
-    case "cyan":
-      return "bg-teal-500";
-    case "blue":
-      return "bg-blue-500";
-    case "green":
-      return "bg-[#40ac4e]";
-    default:
-      return "bg-gray-400";
-  }
-}
+import ModuleCard from "./ModuleCard";
 
 const ModuleGrid = () => {
   const { isUnlocked } = useUnlockCode();
 
+  const visibleModules = modules.filter((m) => !(m.codeRequired && !isUnlocked));
+
+  if (!visibleModules.length) {
+    return <div className="my-container text-sm text-gray-500">No modules available.</div>;
+  }
+
   return (
-    <div className="my-container flex flex-col gap-2 md:gap-3">
-      {modules.map((group) => {
-        if (!group.sets.length || (group.codeRequired && !isUnlocked)) {
-          return null;
-        }
-
-        const bgClass = getVariantClasses(group.variant);
-
-        return (
-          <div
-            key={group.title}
-            className="w-full flex flex-col md:flex-row gap-2 md:gap-3 justify-between items-center"
-          >
-            {group.sets.map((set) => (
-              <ModuleLink
-                key={set.href}
-                href={set.href}
-                title={group.title}
-                label={set.label}
-                items={set.items}
-                textClass={set.textClass}
-                bgClass={bgClass}
-              />
-            ))}
-          </div>
-        );
-      })}
+    <div className="my-container">
+      <div className="grid grid-cols-1 gap-2 md:gap-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        {visibleModules.map((mod) => {
+          return (
+            <ModuleCard
+              key={mod.href}
+              href={mod.href}
+              title={mod.title}
+              description={mod.items}
+              category={mod.category}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 };

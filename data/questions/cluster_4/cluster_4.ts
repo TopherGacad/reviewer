@@ -1,13 +1,276 @@
-export const cluster_4_set_2 = [
+export const cluster_4 = [
   {
-    id: 31,
+    id: 1,
+    question: "Which condition is characterized by the accumulation of blood in the pleural cavity?",
+    options: ["Empyema", "Hemothorax", "Pneumothorax", "Pleural effusion"],
+    correctAnswer: 1,
+    rationale:
+      "Hemothorax refers to the accumulation of blood in the pleural cavity, usually caused by trauma or injury.",
+  },
+  {
+    id: 2,
+    question: "Which of the following methods is primarily used for steam sterilization under pressure?",
+    options: ["Dry heat", "Chemical sterilization", "Gas sterilization", "Autoclave"],
+    correctAnswer: 3,
+    rationale:
+      "Autoclave is the most commonly used method for sterilization under pressure, particularly for medical instruments.",
+  },
+  {
+    id: 3,
+    question: "What is the recommended position for a patient with a possible spinal injury?",
+    options: ["Prone", "Supine", "Lateral recumbent", "Fowler"],
+    correctAnswer: 2,
+    rationale: "For spinal injuries, a supine position is often recommended to avoid further damage to the spine.",
+  },
+  {
+    id: 4,
+    question:
+      "Which stage of shock is characterized by rapid, shallow breathing and a significant drop in blood pressure?",
+    options: ["Compensatory stage", "Progressive stage", "Irreversible stage", "Initial stage"],
+    correctAnswer: 1,
+    rationale:
+      "In the progressive stage of shock, rapid, shallow breathing and a drop in blood pressure are common symptoms.",
+  },
+  {
+    id: 5,
+    question: "What principle in medical ethics dictates that healthcare professionals should avoid harm to patients?",
+    options: ["Autonomy", "Beneficence", "Non-maleficence", "Justice"],
+    correctAnswer: 2,
+    rationale: "Non-maleficence emphasizes the duty of healthcare professionals to 'do no harm.'",
+  },
+  {
+    id: 6,
+    question: "Which diagnostic test result indicates decreased renal function?",
+    options: ["Low BUN levels", "High creatinine levels", "Low creatinine levels", "Normal BUN levels"],
+    correctAnswer: 1,
+    rationale: "Increased BUN and creatinine levels are often indicators of impaired renal function.",
+  },
+  {
+    id: 7,
+    question: "What term refers to inflammation of the pleura surrounding the lungs?",
+    options: ["Pneumothorax", "Pleurisy", "Bronchitis", "Pleural effusion"],
+    correctAnswer: 1,
+    rationale: "Pleurisy is the inflammation of the pleura, often causing severe pain during respiration.",
+  },
+  {
+    id: 8,
+    question:
+      "A person who is found to be unconscious and unable to provide consent for a procedure is considered to be under which type of consent?",
+    options: ["Informed consent", "Implied consent", "Express consent", "Written consent"],
+    correctAnswer: 1,
+    rationale:
+      "Implied consent is assumed when a patient is unconscious and unable to make decisions, especially in emergency situations.",
+  },
+  {
+    id: 9,
+    question: "Which condition is primarily characterized by difficulty in expelling air from the lungs?",
+    options: ["Asthma", "Emphysema", "Bronchitis", "Cystic fibrosis"],
+    correctAnswer: 1,
+    rationale:
+      "Emphysema is a chronic lung condition where the alveoli become enlarged and have difficulty expelling air.",
+  },
+  {
+    id: 10,
+    question: "Which of the following ethical principles relates to the duty of maintaining patient confidentiality?",
+    options: ["Autonomy", "Beneficence", "Confidentiality", "Veracity"],
+    correctAnswer: 2,
+    rationale:
+      "Confidentiality is the ethical principle that emphasizes protecting patient privacy and not sharing sensitive information without consent.",
+  },
+  {
+    id: 11,
+    question:
+      "What should the radiographer do in the case of suspected anaphylactic shock in a patient who was administered contrast agents?",
+    options: [
+      "Administer CPR immediately",
+      "Monitor vital signs and prepare to assist",
+      "Place the patient in prone position",
+      "Do not call for emergency help",
+    ],
+    correctAnswer: 1,
+    rationale:
+      "Anaphylactic shock requires immediate medical attention, including monitoring vital signs and potentially administering CPR.",
+  },
+  {
+    id: 12,
+    question: "In medical asepsis, what is the primary goal?",
+    options: [
+      "Complete removal of all organisms",
+      "Elimination of most organisms",
+      "Control of airborne transmission",
+      "Sterilization of the environment",
+    ],
+    correctAnswer: 2,
+    rationale:
+      "Medical asepsis involves minimizing the number of harmful microorganisms, unlike surgical asepsis, which aims for complete removal.",
+  },
+  {
+    id: 13,
+    question: "Which position is preferred for a patient experiencing dyspnea during a diagnostic procedure?",
+    options: ["Supine", "Fowler’s", "Lateral recumbent", "Trendelenburg"],
+    correctAnswer: 1,
+    rationale: "Fowler’s position helps ease breathing difficulties by allowing the diaphragm to move more freely.",
+  },
+  {
+    id: 14,
+    question: "What is the highest level of blood pressure during heart contraction called?",
+    options: ["Diastolic", "Systolic", "Pulse pressure", "Mean arterial pressure"],
+    correctAnswer: 1,
+    rationale: "Systolic pressure is the peak pressure during the heart’s contraction phase.",
+  },
+  {
+    id: 15,
+    question: "What ethical theory emphasizes the greatest good for the greatest number of people?",
+    options: ["Deontology", "Utilitarianism", "Virtue ethics", "Relativism"],
+    correctAnswer: 1,
+    rationale: "Utilitarianism is focused on achieving the highest benefit for the most individuals.",
+  },
+  {
+    id: 16,
+    question: "Which sterilization method is most appropriate for items that would be damaged by high temperatures?",
+    options: ["Dry heat", "Chemical sterilization", "Gas sterilization", "Autoclave"],
+    correctAnswer: 2,
+    rationale:
+      "Gas sterilization is used for items that cannot withstand high temperatures, such as plastics and rubber.",
+  },
+  {
+    id: 17,
+    question:
+      "What ethical principle refers to acting in the best interest of the patient, ensuring a positive outcome?",
+    options: ["Autonomy", "Non-maleficence", "Beneficence", "Veracity"],
+    correctAnswer: 2,
+    rationale:
+      "Beneficence emphasizes healthcare professionals' duty to act in the best interest of the patient to achieve good outcomes.",
+  },
+  {
+    id: 18,
+    question: "In which stage of shock is there irreversible damage to vital organs?",
+    options: ["Compensatory stage", "Progressive stage", "Irreversible stage", "Initial stage"],
+    correctAnswer: 2,
+    rationale: "The irreversible stage of shock leads to permanent damage to vital organs, making recovery unlikely.",
+  },
+  {
+    id: 19,
+    question: "What is the primary ethical concern when using chemical restraints in patient care?",
+    options: ["Autonomy", "Beneficence", "Paternalism", "Non-maleficence"],
+    correctAnswer: 0,
+    rationale:
+      "The use of chemical restraints can infringe on a patient's autonomy, as it involves making decisions on their behalf.",
+  },
+  {
+    id: 20,
+    question:
+      "Which condition is a leading cause of chronic airflow limitation and involves the destruction of alveolar walls?",
+    options: ["Asthma", "Bronchitis", "Emphysema", "Tuberculosis"],
+    correctAnswer: 2,
+    rationale:
+      "Emphysema is characterized by the destruction of alveolar walls, which severely impairs gas exchange in the lungs.",
+  },
+  {
+    id: 21,
+    question: "Which position should be used for a patient with a suspected head injury?",
+    options: ["Semi-Fowler’s", "Supine", "Lateral recumbent", "Trendelenburg"],
+    correctAnswer: 0,
+    rationale:
+      "The semi-Fowler's position can reduce intracranial pressure and is often recommended for patients with head injuries.",
+  },
+  {
+    id: 22,
+    question:
+      "What principle of ethical behavior ensures that all persons are treated equally or according to their need?",
+    options: ["Autonomy", "Justice", "Fidelity", "Non-maleficence"],
+    correctAnswer: 1,
+    rationale:
+      "Justice refers to fairness and equality, ensuring that individuals are treated equally or based on their needs.",
+  },
+  {
+    id: 23,
+    question: "What is the typical cause of aspiration pneumonia?",
+    options: [
+      "Viral infection",
+      "Aspiration of foreign objects or food",
+      "Inhalation of toxic gases",
+      "Allergic reaction",
+    ],
+    correctAnswer: 1,
+    rationale:
+      "Aspiration pneumonia occurs when foreign objects or food are inhaled into the lungs, causing inflammation and infection.",
+  },
+  {
+    id: 24,
+    question: "What is the normal pulse rate for an adult at rest?",
+    options: [
+      "30-50 beats per minute",
+      "60-90 beats per minute",
+      "90-110 beats per minute",
+      "120-150 beats per minute",
+    ],
+    correctAnswer: 1,
+    rationale: "The normal resting pulse rate for an adult is between 60 and 90 beats per minute.",
+  },
+  {
+    id: 25,
+    question: "What type of contract involves consent that is implied through the actions of the parties involved?",
+    options: ["Express contract", "Implied contract", "Formal contract", "Void contract"],
+    correctAnswer: 1,
+    rationale:
+      "An implied contract is formed through the actions or conduct of the parties rather than written or spoken words.",
+  },
+  {
+    id: 26,
+    question: "Which patient condition requires placing the legs in an elevated position to promote venous return?",
+    options: ["Cardiogenic shock", "Neurogenic shock", "Hypovolemic shock", "Anaphylactic shock"],
+    correctAnswer: 2,
+    rationale:
+      "In hypovolemic shock, elevating the legs can help promote venous return and improve blood circulation to vital organs.",
+  },
+  {
+    id: 27,
+    question:
+      "Which document provides a patient's directives regarding medical care in case they become incapacitated?",
+    options: ["Informed consent", "Do Not Resuscitate order", "Advance directive", "Health proxy"],
+    correctAnswer: 2,
+    rationale:
+      "An advance directive outlines a patient's medical wishes, including treatment preferences if they become unable to make decisions.",
+  },
+  {
+    id: 28,
+    question: "Which term refers to a healthcare provider's responsibility to fulfill promises and commitments?",
+    options: ["Autonomy", "Veracity", "Fidelity", "Beneficence"],
+    correctAnswer: 2,
+    rationale: "Fidelity refers to the duty to keep promises and uphold commitments to patients and colleagues.",
+  },
+  {
+    id: 29,
+    question:
+      "Which condition is described as a mechanical obstruction caused by the telescoping of one part of the intestine into another?",
+    options: ["Volvulus", "Intussusception", "Crohn's disease", "Bowel perforation"],
+    correctAnswer: 1,
+    rationale: "Intussusception occurs when one part of the intestine telescopes into another, leading to a blockage.",
+  },
+  {
+    id: 30,
+    question: "What is the primary function of a crash cart in the radiology department?",
+    options: [
+      "Transporting patients",
+      "Storing diagnostic equipment",
+      "Holding medications and equipment for emergencies",
+      "Storing sterile supplies",
+    ],
+    correctAnswer: 2,
+    rationale:
+      "A crash cart contains essential medications and equipment needed during a medical emergency, such as cardiac arrest.",
+  },
+
+  {
+    id: 2031,
     question: "Which condition is characterized by the inflammation of the pleura due to viral or bacterial infection?",
     options: ["Pleural effusion", "Atelectasis", "Pleurisy", "Bronchitis"],
     correctAnswer: 2,
     rationale: "Pleurisy involves inflammation of the pleura, often leading to severe pain during breathing.",
   },
   {
-    id: 32,
+    id: 2032,
     question: "What stage of shock is defined by a decrease in urine output and cold, clammy skin?",
     options: ["Compensatory stage", "Progressive stage", "Irreversible stage", "Initial stage"],
     correctAnswer: 0,
@@ -15,7 +278,7 @@ export const cluster_4_set_2 = [
       "In the compensatory stage of shock, signs like cold skin and reduced urine output emerge as the body tries to maintain blood pressure.",
   },
   {
-    id: 33,
+    id: 2033,
     question: "Which of the following is a common complication of untreated cystic fibrosis?",
     options: ["Bronchiectasis", "Atelectasis", "Empyema", "Pneumonia"],
     correctAnswer: 0,
@@ -23,7 +286,7 @@ export const cluster_4_set_2 = [
       "Cystic fibrosis often leads to bronchiectasis, a condition characterized by irreversible dilation of the bronchi due to repeated infection.",
   },
   {
-    id: 34,
+    id: 2034,
     question: "In which type of shock does the heart fail to pump adequate blood to the vital organs?",
     options: ["Hypovolemic shock", "Cardiogenic shock", "Neurogenic shock", "Septic shock"],
     correctAnswer: 1,
@@ -31,7 +294,7 @@ export const cluster_4_set_2 = [
       "Cardiogenic shock is caused by the heart's inability to pump blood effectively, leading to insufficient perfusion of vital organs.",
   },
   {
-    id: 35,
+    id: 2035,
     question: "What is the primary goal of the double effect principle in medical ethics?",
     options: [
       "To respect patient autonomy",
@@ -44,7 +307,7 @@ export const cluster_4_set_2 = [
       "The principle of double effect allows healthcare providers to perform an action that has both good and bad effects if the intention is to achieve the good outcome.",
   },
   {
-    id: 36,
+    id: 2036,
     question: "Which of the following is considered a parenteral route of administration?",
     options: ["Oral", "Intrathecal", "Topical", "Rectal"],
     correctAnswer: 1,
@@ -52,7 +315,7 @@ export const cluster_4_set_2 = [
       "Parenteral routes bypass the digestive system, and intrathecal administration delivers medication directly into the spinal canal.",
   },
   {
-    id: 37,
+    id: 2037,
     question: "Which condition is marked by the irreversible destruction of alveolar walls and difficulty exhaling?",
     options: ["Asthma", "Bronchitis", "Emphysema", "Pneumonia"],
     correctAnswer: 2,
@@ -60,7 +323,7 @@ export const cluster_4_set_2 = [
       "Emphysema causes destruction of the alveoli, impairing the lungs' ability to expel air and leading to chronic breathing difficulties.",
   },
   {
-    id: 38,
+    id: 2038,
     question: "Which medical emergency involves an occlusion of the pulmonary arteries by a blood clot?",
     options: ["Pneumonia", "Pulmonary embolism", "Pleurisy", "Pneumothorax"],
     correctAnswer: 1,
@@ -68,7 +331,7 @@ export const cluster_4_set_2 = [
       "A pulmonary embolism occurs when a blood clot obstructs one or more pulmonary arteries, impeding blood flow to the lungs.",
   },
   {
-    id: 39,
+    id: 2039,
     question: "What is the primary purpose of an autoclave in a healthcare setting?",
     options: [
       "To perform chemical sterilization",
@@ -81,7 +344,7 @@ export const cluster_4_set_2 = [
       "An autoclave is used for steam sterilization under pressure, ensuring that medical instruments are free from harmful microorganisms.",
   },
   {
-    id: 40,
+    id: 2040,
     question: "Which ethical principle requires healthcare providers to be truthful to their patients?",
     options: ["Autonomy", "Fidelity", "Veracity", "Non-maleficence"],
     correctAnswer: 2,
@@ -89,7 +352,7 @@ export const cluster_4_set_2 = [
       "Veracity is the ethical principle that emphasizes the importance of telling the truth to patients in all aspects of care.",
   },
   {
-    id: 41,
+    id: 2041,
     question:
       "What medical emergency is characterized by a rapid loss of blood leading to insufficient circulation to vital organs?",
     options: ["Cardiogenic shock", "Hypovolemic shock", "Anaphylactic shock", "Septic shock"],
@@ -98,14 +361,14 @@ export const cluster_4_set_2 = [
       "Hypovolemic shock is caused by significant blood loss, leading to a drop in circulating blood volume and reduced perfusion to organs.",
   },
   {
-    id: 42,
+    id: 2042,
     question: "Which anatomical structure is located in the right upper quadrant of the abdomen?",
     options: ["Stomach", "Spleen", "Liver", "Appendix"],
     correctAnswer: 2,
     rationale: "The liver is primarily located in the right upper quadrant of the abdomen.",
   },
   {
-    id: 43,
+    id: 2043,
     question:
       "What term is used to describe a group of organs that work together to perform a particular function in the body?",
     options: ["Tissue", "Organ system", "Cell structure", "Structural units"],
@@ -114,7 +377,7 @@ export const cluster_4_set_2 = [
       "An organ system is a group of organs that work together to perform a specific function, such as the respiratory or digestive systems.",
   },
   {
-    id: 44,
+    id: 2044,
     question: "What is the normal range for creatinine levels in adults?",
     options: ["0.6 to 1.5 mg/dL", "8 to 25 mg/dL", "1.5 to 2.5 mg/dL", "30 to 50 mg/dL"],
     correctAnswer: 0,
@@ -122,7 +385,7 @@ export const cluster_4_set_2 = [
       "The normal range for creatinine in adults is between 0.6 and 1.5 mg/dL, used to assess kidney function.",
   },
   {
-    id: 45,
+    id: 2045,
     question:
       "What condition involves fluid accumulation in the pleural cavity and may be classified as empyema or hemothorax?",
     options: ["Pneumothorax", "Pleural effusion", "Atelectasis", "Pulmonary edema"],
@@ -131,7 +394,7 @@ export const cluster_4_set_2 = [
       "Pleural effusion refers to the abnormal buildup of fluid in the pleural cavity, which can be classified into types like empyema (pus) or hemothorax (blood).",
   },
   {
-    id: 46,
+    id: 2046,
     question: "Which vital sign is typically measured using a sphygmomanometer?",
     options: ["Pulse rate", "Respiration rate", "Blood pressure", "Oxygen saturation"],
     correctAnswer: 2,
@@ -139,7 +402,7 @@ export const cluster_4_set_2 = [
       "A sphygmomanometer is used to measure blood pressure, one of the key vital signs monitored in patients.",
   },
   {
-    id: 47,
+    id: 2047,
     question:
       "What should a radiographer do if a patient suddenly experiences a decrease in consciousness during a procedure?",
     options: [
@@ -153,7 +416,7 @@ export const cluster_4_set_2 = [
       "Any sudden change in a patient's consciousness should prompt the radiographer to stop the procedure and seek emergency help.",
   },
   {
-    id: 48,
+    id: 2048,
     question:
       "Which type of hepatitis is most concerning for healthcare workers due to its risk of transmission via blood?",
     options: ["Hepatitis A", "Hepatitis B", "Hepatitis C", "Hepatitis E"],
@@ -162,7 +425,7 @@ export const cluster_4_set_2 = [
       "Hepatitis B is particularly concerning for healthcare workers because it is transmitted through blood and can lead to chronic liver disease.",
   },
   {
-    id: 49,
+    id: 2049,
     question: "Which ethical principle refers to fairness in the allocation of healthcare resources?",
     options: ["Fidelity", "Justice", "Beneficence", "Autonomy"],
     correctAnswer: 1,
@@ -170,7 +433,7 @@ export const cluster_4_set_2 = [
       "Justice involves treating all individuals fairly, especially when allocating limited healthcare resources.",
   },
   {
-    id: 50,
+    id: 2050,
     question: "What is the expected response to a patient who is in cardiogenic shock?",
     options: [
       "Position the patient in a semi-Fowler's position",
@@ -183,7 +446,7 @@ export const cluster_4_set_2 = [
       "In cardiogenic shock, placing the patient in a semi-Fowler’s position helps reduce the workload on the heart and improve breathing.",
   },
   {
-    id: 51,
+    id: 2051,
     question: "Which principle of medical ethics emphasizes respecting a patient’s right to make their own decisions?",
     options: ["Justice", "Autonomy", "Beneficence", "Veracity"],
     correctAnswer: 1,
@@ -191,7 +454,7 @@ export const cluster_4_set_2 = [
       "Autonomy refers to the patient's right to make their own healthcare decisions based on their values and preferences.",
   },
   {
-    id: 52,
+    id: 2052,
     question:
       "Which respiratory measurement can help assess lung function and is particularly useful in patients with chronic lung diseases?",
     options: ["Blood pressure", "Spirometry", "Electrocardiogram", "Blood glucose test"],
@@ -200,7 +463,7 @@ export const cluster_4_set_2 = [
       "Spirometry is a test that measures lung function, assessing conditions like chronic obstructive pulmonary disease (COPD).",
   },
   {
-    id: 53,
+    id: 2053,
     question:
       "If a patient has a blood urea nitrogen (BUN) level of 40 mg/dL, how does this compare to the normal range?",
     options: ["Lower than normal", "Within the normal range", "Slightly above normal", "Significantly above normal"],
@@ -209,7 +472,7 @@ export const cluster_4_set_2 = [
       "The normal BUN range is 8 to 25 mg/dL, so a level of 40 mg/dL is significantly above normal and may indicate impaired renal function.",
   },
   {
-    id: 54,
+    id: 2054,
     question:
       "A patient is scheduled for a diagnostic test with a normal creatinine level of 1.2 mg/dL. If the creatinine level rises to 2.0 mg/dL, what does this suggest?",
     options: ["Decreased liver function", "Improved kidney function", "Impaired kidney function", "Normal variation"],
@@ -218,7 +481,7 @@ export const cluster_4_set_2 = [
       "An elevated creatinine level, such as 2.0 mg/dL, suggests decreased kidney function, as creatinine is a waste product filtered by the kidneys.",
   },
   {
-    id: 55,
+    id: 2055,
     question:
       "If a patient's systolic blood pressure is 130 mm Hg and their diastolic blood pressure is 80 mm Hg, what is the pulse pressure?",
     options: ["30 mm Hg", "40 mm Hg", "50 mm Hg", "60 mm Hg"],
@@ -227,7 +490,7 @@ export const cluster_4_set_2 = [
       "Pulse pressure is the difference between systolic and diastolic blood pressure. In this case, 130 - 80 = 50 mm Hg.",
   },
   {
-    id: 56,
+    id: 2056,
     question:
       "A patient with a hemothorax is suspected of having lost 1200 mL of blood. Which class of hypovolemic shock does this blood loss represent?",
     options: ["Class I", "Class II", "Class III", "Class IV"],
@@ -235,7 +498,7 @@ export const cluster_4_set_2 = [
     rationale: "Class II hypovolemic shock involves a blood loss of 15% to 30%, which is approximately 750 to 1500 mL.",
   },
   {
-    id: 57,
+    id: 2057,
     question:
       "A patient’s pulse rate is recorded as 75 beats per minute. What would the patient’s pulse rate be over 15 seconds if counted manually?",
     options: ["18 beats", "19 beats", "20 beats", "21 beats"],
@@ -244,7 +507,7 @@ export const cluster_4_set_2 = [
       "The pulse rate over 15 seconds can be calculated as (75 beats/min ÷ 4), which equals 18.75, rounded to 19 beats.",
   },
   {
-    id: 58,
+    id: 2058,
     question:
       "A radiographer measures a patient's respiration rate and finds it to be 22 breaths per minute. Is this within the normal adult range?",
     options: [
@@ -258,7 +521,7 @@ export const cluster_4_set_2 = [
       "The normal adult respiration rate is 12-20 breaths per minute. A rate of 22 breaths per minute is slightly elevated.",
   },
   {
-    id: 59,
+    id: 2059,
     question:
       "Which condition requires the patient to be observed for 30 minutes after the administration of contrast agents in diagnostic imaging?",
     options: ["Septic shock", "Anaphylactic shock", "Neurogenic shock", "Cardiogenic shock"],
@@ -267,7 +530,7 @@ export const cluster_4_set_2 = [
       "Patients who receive contrast agents should be observed for 30 minutes for signs of anaphylactic shock, a severe allergic reaction.",
   },
   {
-    id: 60,
+    id: 2060,
     question:
       "If a patient’s body temperature is measured at 99.7°F, how would this be classified in a 3-year-old child?",
     options: ["Normal", "Hypothermic", "Pyrexia", "Hyperthermic"],
@@ -276,14 +539,14 @@ export const cluster_4_set_2 = [
       "In children aged 3 months to 3 years, a normal temperature range is 99°F to 99.7°F, so 99.7°F is within the normal range.",
   },
   {
-    id: 61,
+    id: 2061,
     question: "Which quadrant of the abdomen contains the appendix?",
     options: ["Left upper quadrant", "Right upper quadrant", "Left lower quadrant", "Right lower quadrant"],
     correctAnswer: 3,
     rationale: "The appendix is located in the right lower quadrant of the abdomen.",
   },
   {
-    id: 62,
+    id: 2062,
     question:
       "A patient’s systolic blood pressure consistently measures above 140 mm Hg. How would this condition be classified?",
     options: ["Normal", "Hypotension", "Hypertension", "Isolated systolic hypertension"],
@@ -292,7 +555,7 @@ export const cluster_4_set_2 = [
       "A systolic blood pressure consistently above 140 mm Hg is classified as hypertension, which may lead to various health complications.",
   },
   {
-    id: 63,
+    id: 2063,
     question:
       "A patient exhibits signs of dyspnea and the physician suspects pleural effusion. What imaging study would likely confirm this diagnosis?",
     options: ["Chest X-ray", "Abdominal ultrasound", "CT of the head", "Spinal MRI"],
@@ -301,7 +564,7 @@ export const cluster_4_set_2 = [
       "A chest X-ray is typically the first imaging study used to diagnose pleural effusion, revealing fluid accumulation in the pleural cavity.",
   },
   {
-    id: 64,
+    id: 2064,
     question: "Which vital sign is measured by counting the number of breaths taken per minute?",
     options: ["Blood pressure", "Respiration rate", "Pulse rate", "Body temperature"],
     correctAnswer: 1,
@@ -309,7 +572,7 @@ export const cluster_4_set_2 = [
       "Respiration rate refers to the number of breaths taken per minute and is an important indicator of respiratory health.",
   },
   {
-    id: 65,
+    id: 2065,
     question:
       "If a patient's pulse rate increases significantly, what corresponding change in blood pressure would you expect?",
     options: [
@@ -323,21 +586,21 @@ export const cluster_4_set_2 = [
       "A rapid pulse rate often corresponds with a decrease in blood pressure as the heart works harder to maintain circulation.",
   },
   {
-    id: 66,
+    id: 2066,
     question: "What ethical principle refers to the obligation to prevent harm or minimize harm to the patient?",
     options: ["Autonomy", "Non-maleficence", "Veracity", "Justice"],
     correctAnswer: 1,
     rationale: "Non-maleficence is the ethical principle that emphasizes the duty to prevent harm to the patient.",
   },
   {
-    id: 67,
+    id: 2067,
     question: "What is the normal systolic blood pressure range for a healthy adult?",
     options: ["60-90 mm Hg", "90-120 mm Hg", "120-140 mm Hg", "140-160 mm Hg"],
     correctAnswer: 1,
     rationale: "The normal systolic blood pressure range for a healthy adult is between 90 and 120 mm Hg.",
   },
   {
-    id: 68,
+    id: 2068,
     question: "Which of the following is a key symptom of neurogenic shock?",
     options: ["Tachycardia", "Warm, dry skin", "Pulmonary edema", "Cold, clammy skin"],
     correctAnswer: 1,
@@ -345,7 +608,7 @@ export const cluster_4_set_2 = [
       "Neurogenic shock is characterized by warm, dry skin and bradycardia, due to loss of sympathetic tone and peripheral vasodilation.",
   },
   {
-    id: 69,
+    id: 2069,
     question:
       "A radiographer notes that a patient’s urine output has decreased significantly. What stage of shock might this indicate?",
     options: ["Compensatory stage", "Progressive stage", "Irreversible stage", "Initial stage"],
@@ -354,7 +617,7 @@ export const cluster_4_set_2 = [
       "Decreased urine output is one of the signs of the compensatory stage of shock as the body tries to conserve fluids.",
   },
   {
-    id: 70,
+    id: 2070,
     question:
       "What is the appropriate response if a patient’s diastolic blood pressure consistently falls below 50 mm Hg?",
     options: [
