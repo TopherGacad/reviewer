@@ -6,6 +6,7 @@ type Props = {
   totalQuestions: number;
   questions: Question[];
   userAnswers: string[];
+  examId: string;
 };
 
 const ExamResultSummary: React.FC<Props> = ({ score, totalQuestions, questions, userAnswers }) => {
@@ -105,7 +106,7 @@ const ExamResultSummary: React.FC<Props> = ({ score, totalQuestions, questions, 
         })}
       </div>
 
-      <div className="mt-10 flex justify-center items-center ">
+      <div className="mt-10 flex justify-center items-center gap-2">
         <HomeButton message="Finish Exam" />
       </div>
     </div>

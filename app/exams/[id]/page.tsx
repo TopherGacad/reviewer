@@ -8,9 +8,7 @@ import ExamResultSummary from "@/components/ExamResultSummary";
 import PageNotFound from "@/components/PageNotFound";
 import { Question } from "@/types";
 import { useUnlockCode } from "@/hooks/useUnlockCode";
-
-const shuffleArray = (array: Question[], sampleSize = 40): Question[] =>
-  array.toSorted(() => Math.random() - 0.5).slice(0, Math.min(sampleSize, array.length));
+import { shuffleArray } from "@/utils";
 
 const Exam = () => {
   const params = useParams();
@@ -26,7 +24,6 @@ const Exam = () => {
   }
 
   const set = rawQuestions[id];
-
   const questionData = set.questions;
   const label = set.label;
 
@@ -36,7 +33,11 @@ const Exam = () => {
   const [questions, setQuestions] = useState<Question[]>([]);
 
   useEffect(() => {
-    setQuestions(shuffleArray(questionData));
+    const shuffledQuestions = shuffleArray(questionData, 40).map((q) => ({
+      ...q,
+      options: shuffleArray(q.options),
+    }));
+    setQuestions(shuffledQuestions);
   }, [questionData]);
 
   const handleAnswer = (selectedValue: string) => {
@@ -75,6 +76,7 @@ const Exam = () => {
         totalQuestions={totalQuestions}
         questions={questions}
         userAnswers={userAnswers}
+        examId={id}
       />
     );
   }

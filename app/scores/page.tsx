@@ -29,6 +29,7 @@ const Scores = () => {
       setScores(parsed);
     } catch (err) {
       console.error("Invalid scores data:", err);
+      localStorage.removeItem("scores");
     }
   }, []);
 
