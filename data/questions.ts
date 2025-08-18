@@ -20,6 +20,7 @@ import { iem } from "./questions/custom/umak/iem";
 import { rpc } from "./questions/custom/umak/rpc";
 import { ipe_marva } from "./questions/custom/umak/ipe_marva";
 import { image_processing } from "./questions/custom/umak/image_processing";
+import { film_screen } from "./questions/custom/umak/film_screen";
 
 export const questions: Record<string, QuestionSet> = {
   module_1: {
@@ -102,5 +103,10 @@ export const questions: Record<string, QuestionSet> = {
   image_processing: {
     label: "Custom: Image Processing",
     questions: image_processing,
+  },
+
+  film_screen: {
+    label: "Custom: Film Screen",
+    questions: film_screen,
   },
 };

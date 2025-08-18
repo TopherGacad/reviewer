@@ -2,8 +2,9 @@ export type Question = {
   id: number;
   question: string;
   options: string[];
-  correctAnswer: number;
+  correctAnswer: string;
   rationale?: string;
+  about?: string;
 };
 
 export type QuestionSet = {

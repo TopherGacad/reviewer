@@ -123,4 +123,12 @@ export const modules = [
     category: "Special Exam",
     description: "",
   },
+  {
+    title: "Film Screen",
+    variant: "cyan",
+    href: "/exams/film_screen",
+    textClass: "text-[#197069]",
+    category: "Special Exam",
+    description: "",
+  },
 ];

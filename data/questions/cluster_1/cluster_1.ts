@@ -8,7 +8,7 @@ export const cluster_1 = [
       "Inversely proportional to the product of charges.",
       "Inversely proportional to the square of the distance between charges.",
     ],
-    correctAnswer: 3,
+    correctAnswer: "Inversely proportional to the square of the distance between charges.",
     rationale:
       "Coulomb’s Law states that electrostatic force is directly proportional to the product of the electrostatic charges and inversely proportional to the square of the distance between them.",
   },
@@ -17,7 +17,7 @@ export const cluster_1 = [
     question:
       "In a parallel circuit, which of the following rules are correct?  1. Vt=V1=V2=V3  2.Vt=V1+V2+V3  3.It=I1=I2=I3  4.It=I1+I2+I3  5.Rt=R1+R2+R3  6. 1/Rt=1/R1+1/R2+1/R3",
     options: ["1, 4 and 5 only", "1, 4 and 6 only", "2, 4 and 6 only", "1, 3 and 6 only"],
-    correctAnswer: 1,
+    correctAnswer: "1, 4 and 6 only",
     rationale:
       "In a parallel circuit: VT = V1 = V2 = V3 (voltage is the same across all components), IT = I1 + I2 + I3 (total current is the sum of individual currents), and 1/RT = 1/R1 + 1/R2 + 1/R3.",
   },
@@ -30,7 +30,7 @@ export const cluster_1 = [
       "Lesser x-ray quantity and quality.",
       "Greater x-ray quantity and quality.",
     ],
-    correctAnswer: 3,
+    correctAnswer: "Greater x-ray quantity and quality.",
     rationale: "Low voltage ripple results in higher x-ray quantity and quality.",
   },
   {
@@ -38,7 +38,7 @@ export const cluster_1 = [
     question:
       "Which of the following statements is/are true regarding the anode heel effect?  1. Smaller actual focal spot on the anode side  2. Less radiation intensity on the anode side  3. Thicker structure is positioned on the cathode side   4.Smaller actual focal spot on the anode side",
     options: ["1, 2 and 4 only", "2 and 4 only", "2, 3 and 4 only", "1, 2, 3 and 4"],
-    correctAnswer: 0,
+    correctAnswer: "1, 2 and 4 only",
     rationale:
       "Anode Heel Effect: The anode side has less x-ray intensity and a smaller effective focal spot. The cathode side has higher intensity and larger focal spot blur. Thicker structures should be positioned on the cathode side.",
   },
@@ -46,7 +46,7 @@ export const cluster_1 = [
     id: 5,
     question: "All of the following are the main components of an x-ray imaging system, EXCEPT:",
     options: ["X-ray tube", "Image receptor", "Collimator", "Transformer"],
-    correctAnswer: 2,
+    correctAnswer: "Collimator",
     rationale:
       "The collimator is used to limit the size and shape of the x-ray beam and is not considered a main component of the x-ray imaging system.",
   },
@@ -55,7 +55,7 @@ export const cluster_1 = [
     question:
       "This design is incorporated to the x-ray tube targets to allow large area for heating while maintaining a small focal spot.",
     options: ["Rotating anode", "Stationary anode", "Line focus principle", "Both a and b"],
-    correctAnswer: 2,
+    correctAnswer: "Line focus principle",
     rationale:
       "Line Focus Principle is incorporated to the x-ray tube targets to allow a large area for heating while maintaining a small focal spot.",
   },
@@ -68,7 +68,7 @@ export const cluster_1 = [
       "The major kVp adjustment and the line-voltage compensator are on the secondary side.",
       "The major kVp adjustment is on the primary side and the minor kVp adjustment is on the secondary side.",
     ],
-    correctAnswer: 0,
+    correctAnswer: "A single coil serves as both the primary and the secondary coils.",
     rationale:
       "An autotransformer uses a single winding to serve as both primary and secondary coils, adjusting voltage as required.",
   },
@@ -77,7 +77,7 @@ export const cluster_1 = [
     question:
       "Every diagnostic x-ray tube housing must be sufficiently shielded to limit the level of exposure 1 meter from the housing to:",
     options: ["10 mR/hr.", "100 mR/hr.", "1000 mR/hr.", "A factor that varies according to kVp."],
-    correctAnswer: 1,
+    correctAnswer: "100 mR/hr.",
     rationale: "The shielding is required to limit the exposure to 100 mR/hr at 1 meter from the housing.",
   },
   {
@@ -85,7 +85,7 @@ export const cluster_1 = [
     question:
       "Which of the following statements are false? 1. A high voltage transformer is a step down transformer.  2. A filament transformer is a step up transformer  3. Ohm’s law is calculated using VI=R  4. Any charge at rest induces a magnetic field  5. Volt is a unit of electric charge  6. Autotransformer law and transformer law are calculated differently  7. Autotransformer supplies voltage to the x-ray tube",
     options: ["1, 2, 3 , 5 and 7 only", "3, 4, 5, and 7 only", "3, 4, 5, 6 and 7 only", "All of the above"],
-    correctAnswer: 0,
+    correctAnswer: "1, 2, 3 , 5 and 7 only",
     rationale:
       "High voltage transformer is a step-up transformer, and a filament transformer is a step-down transformer.",
   },
@@ -98,7 +98,7 @@ export const cluster_1 = [
       "Decreased radiographic contrast",
       "Inadequate breast compression",
     ],
-    correctAnswer: 1,
+    correctAnswer: "Improper placement of the dense breast tissue/size over the detector",
     rationale: "Improper positioning of dense tissue over the AEC detector can cause underexposure.",
   },
   {
@@ -106,14 +106,14 @@ export const cluster_1 = [
     question:
       "Calculate the heat units generated in a three-phase, 12-pulse rectified unit with the following exposure: 250 mA, 0.7 seconds, and 200 kVp.",
     options: ["47,250 HU", "50,750 HU", "49,350 HU", "35,200 HU"],
-    correctAnswer: 2,
+    correctAnswer: "49,350 HU",
     rationale: "Heat Units = 1.41 x kVp x mA x s. For this exposure, HU = 49,350.",
   },
   {
     id: 12,
     question: "This element increases the efficiency of thermionic emission:",
     options: ["Rhenium", "Molybdenum", "Thorium", "Tungsten"],
-    correctAnswer: 2,
+    correctAnswer: "Thorium",
     rationale: "Thorium is added to the filament to enhance thermionic emission efficiency.",
   },
   {
@@ -121,7 +121,7 @@ export const cluster_1 = [
     question:
       "Determine the number of dots that should appear on a manual spin top test imaged for a single phase full-wave rectified unit produced with an exposure of 300 ms, 60 mA and 50 kVp.",
     options: ["40 dots", "36 dots", "25 dots", "16 dots"],
-    correctAnswer: 1,
+    correctAnswer: "36 dots",
     rationale: "For a full-wave rectified unit, dots = cycles/second x time. This gives 36 dots.",
   },
   {
@@ -129,7 +129,7 @@ export const cluster_1 = [
     question:
       "Determine the number of dots that should appear on a manual spin top test imaged for a single phase half-wave unit with an exposure of 0.6s, 100 mA and 70 kVp.",
     options: ["40 dots", "36 dots", "25 dots", "16 dots"],
-    correctAnswer: 1,
+    correctAnswer: "36 dots",
     rationale: "For a half-wave rectified unit, dots = 60 x time. This gives 36 dots.",
   },
   {
@@ -141,7 +141,7 @@ export const cluster_1 = [
       "Reduces contrast but increases patient dose",
       "Increases contrast and reduces patient dose",
     ],
-    correctAnswer: 1,
+    correctAnswer: "Increases contrast but increases patient dose",
     rationale: "Low kVp increases contrast but also increases the patient's dose.",
   },
   {
@@ -153,7 +153,7 @@ export const cluster_1 = [
       "Tungsten target with tungsten filtration",
       "Molybdenum target with appropriate K-edge filtration",
     ],
-    correctAnswer: 1,
+    correctAnswer: "Rhodium target with rhodium filtration",
     rationale: "Rhodium target with rhodium filtration provides better penetration for dense breast tissue.",
   },
   {
@@ -161,21 +161,21 @@ export const cluster_1 = [
     question:
       "Compared with radiography, the x-ray technique required for fluoroscopy calls for which of the following?",
     options: ["Lower mA", "Lower kVp", "Higher mAs", "Higher kVp"],
-    correctAnswer: 0,
+    correctAnswer: "Lower mA",
     rationale: "Fluoroscopy requires lower mA settings compared to radiography.",
   },
   {
     id: 18,
     question: "Which of the following structures is responsible for the vision of dim objects?",
     options: ["Cornea", "Pupil", "Iris", "Rod"],
-    correctAnswer: 3,
+    correctAnswer: "Rod",
     rationale: "Rods are responsible for scotopic (dim light) vision, making them sensitive to low light levels.",
   },
   {
     id: 19,
     question: "Which of the following is the input phosphor of image intensifiers?",
     options: ["Sodium Iodide", "Calcium Tungstate", "Cesium Iodide", "Zinc Cadmium Sulfide"],
-    correctAnswer: 2,
+    correctAnswer: "Cesium Iodide",
     rationale: "Cesium Iodide is the material used for the input phosphor, converting x-rays into light.",
   },
   {
@@ -183,7 +183,7 @@ export const cluster_1 = [
     question:
       "Which of the following is the component of the image intensifier responsible for focusing the electron beam?",
     options: ["Glass envelope", "Input phosphor", "Output phosphor", "Electrostatic lens"],
-    correctAnswer: 3,
+    correctAnswer: "Electrostatic lens",
     rationale: "The electrostatic lens focuses the electron beam within the image intensifier.",
   },
   {
@@ -191,7 +191,7 @@ export const cluster_1 = [
     question:
       "A transformer has a primary voltage of 240 volts and a secondary voltage of 120 volts. If the primary coil has 400 turns, how many turns are in the secondary coil?",
     options: ["200 turns", "300 turns", "400 turns", "500 turns"],
-    correctAnswer: 0,
+    correctAnswer: "200 turns",
     rationale: "Using the transformer formula, the secondary coil has 200 turns.",
   },
   {
@@ -199,7 +199,7 @@ export const cluster_1 = [
     question:
       "If a transformer has a primary coil of 100 turns and a secondary coil of 50 turns, and the primary voltage is 220 volts, what is the secondary voltage?",
     options: ["110 V", "120 V", "220 V", "440 V"],
-    correctAnswer: 0,
+    correctAnswer: "110 V",
     rationale: "According to the transformer formula, the secondary voltage will be 110V.",
   },
   {
@@ -207,7 +207,7 @@ export const cluster_1 = [
     question:
       "In a transformer, the primary coil has 600 turns and the secondary coil has 100 turns. If the primary current is 2 amps, what is the secondary current?",
     options: ["0.33 A", "1.2 A", "6 A", "12 A"],
-    correctAnswer: 3,
+    correctAnswer: "12 A",
     rationale: "The current in the secondary coil is calculated to be 12 A based on the transformer law.",
   },
   {
@@ -215,7 +215,7 @@ export const cluster_1 = [
     question:
       "Two resistors, one of 5 ohms and one of 10 ohms, are connected in parallel. What is the equivalent resistance?",
     options: ["15 ohms", "7.5 ohms", "3.33 ohms", "5 ohms"],
-    correctAnswer: 2,
+    correctAnswer: "3.33 ohms",
     rationale: "For resistors in parallel, the equivalent resistance is calculated to be 3.33 ohms.",
   },
   {
@@ -223,7 +223,7 @@ export const cluster_1 = [
     question:
       "In a parallel circuit, three resistors have values of 6 ohms, 3 ohms, and 2 ohms. What is the total resistance of the circuit?",
     options: ["1 ohm", "2 ohms", "1.09 ohms", "11 ohms"],
-    correctAnswer: 0,
+    correctAnswer: "1 ohm",
     rationale: "The total resistance of the parallel circuit is calculated to be 1 ohm.",
   },
   {
@@ -231,7 +231,7 @@ export const cluster_1 = [
     question:
       "A single-phase, full-wave rectified x-ray unit shows 18 dots on the film during a spinning top test. What was the set exposure time?",
     options: ["0.15 seconds", "0.3 seconds", "0.6 seconds", "1.2 seconds"],
-    correctAnswer: 0,
+    correctAnswer: "0.15 seconds",
     rationale: "The exposure time is 0.15 seconds based on the number of dots produced.",
   },
   {
@@ -239,7 +239,7 @@ export const cluster_1 = [
     question:
       "During a spinning top test of a three-phase, 12-pulse x-ray machine, the film shows a 108-degree arc. What was the set exposure time?",
     options: ["0.1 seconds", "0.2 seconds", "0.3 seconds", "0.4 seconds"],
-    correctAnswer: 2,
+    correctAnswer: "0.3 seconds",
     rationale: "The exposure time is calculated to be 0.3 seconds based on the arc length.",
   },
   {
@@ -247,14 +247,14 @@ export const cluster_1 = [
     question:
       "There are 200 turns on the secondary side of a transformer and 150 turns on the primary side. If 200V AC is the output of the secondary winding, what is the voltage input in the primary winding?",
     options: ["550V", "220V", "150V", "250V"],
-    correctAnswer: 2,
+    correctAnswer: "150V",
     rationale: "Using the transformer formula, the primary voltage is calculated to be 150V.",
   },
   {
     id: 29,
     question: "A transformer operates:",
     options: ["On both DC and AC", "On DC but not on AC", "On AC but not on DC", "Only above its critical current"],
-    correctAnswer: 2,
+    correctAnswer: "On AC but not on DC",
     rationale: "A transformer operates only on alternating current (AC).",
   },
   {
@@ -266,7 +266,7 @@ export const cluster_1 = [
       "Varies inversely with the distance between them.",
       "Varies directly with the distance between them.",
     ],
-    correctAnswer: 2,
+    correctAnswer: "Varies inversely with the distance between them.",
     rationale:
       "According to Coulomb's law, the force between charges varies inversely with the square of the distance.",
   },
@@ -279,7 +279,7 @@ export const cluster_1 = [
       "Technique selection is not necessary.",
       "A backup timer is required.",
     ],
-    correctAnswer: 3,
+    correctAnswer: "A backup timer is required.",
     rationale: "A backup timer is required to terminate exposure if AEC fails.",
   },
   {
@@ -287,7 +287,7 @@ export const cluster_1 = [
     question:
       "If the AEC cell is placed over an area of adipose tissue on a breast with a mixture of adipose and glandular tissue, the areas of glandular tissue will be:",
     options: ["Underexposed", "Overexposed", "Normally exposed", "The AEC cell position will not affect the exposure."],
-    correctAnswer: 0,
+    correctAnswer: "Underexposed",
     rationale: "Glandular tissue will be underexposed if the AEC cell is positioned over less dense adipose tissue.",
   },
   {
@@ -299,7 +299,7 @@ export const cluster_1 = [
       "Reduce the possibility of motion during the exposure",
       "Reduce the radiation dose to the breast",
     ],
-    correctAnswer: 1,
+    correctAnswer: "Allow uniform penetration of structures within the breast",
     rationale: "The primary goal of compression is to allow uniform penetration of the structures within the breast.",
   },
   {
@@ -311,7 +311,7 @@ export const cluster_1 = [
       "It increases the speed of imaging procedures.",
       "It minimizes the cost of QA activities.",
     ],
-    correctAnswer: 1,
+    correctAnswer: "It ensures staff have up-to-date licenses and are competent.",
     rationale: "Certification ensures that staff are up-to-date on licenses and competent in their roles.",
   },
   {
@@ -323,7 +323,7 @@ export const cluster_1 = [
       "Simplify imaging procedures",
       "Reduce training requirements for staff",
     ],
-    correctAnswer: 0,
+    correctAnswer: "Address identified issues and mitigate future risks",
     rationale: "CAPA is designed to address identified issues and mitigate future risks in the QA process.",
   },
   {
@@ -331,7 +331,7 @@ export const cluster_1 = [
     question:
       "As a radiologic technologist, you perform daily checks of radiographic equipment to ensure it is within the manufacturer’s specifications. What is this an example of?",
     options: ["Quality Assurance (QA)", "Quality Management (QM)", "Quality Control (QC)", "None of the above"],
-    correctAnswer: 2,
+    correctAnswer: "Quality Control (QC)",
     rationale:
       "Quality Control (QC) involves checking equipment performance to ensure it meets the required standards.",
   },
@@ -345,7 +345,7 @@ export const cluster_1 = [
       "Integrating QA and QC processes with strategic planning - QM",
       "All of the above",
     ],
-    correctAnswer: 3,
+    correctAnswer: "All of the above",
     rationale: "A complete quality management system (QM) integrates QA, QC, and strategic planning.",
   },
   {
@@ -353,7 +353,7 @@ export const cluster_1 = [
     question:
       "A technologist conducts a routine phantom imaging test to verify the accuracy of radiologic images. What component of quality management does this activity represent?",
     options: ["Quality Management (QM)", "Quality Assurance (QA)", "Quality Control (QC)", "None of the above"],
-    correctAnswer: 2,
+    correctAnswer: "Quality Control (QC)",
     rationale: "Performing routine tests to check equipment accuracy falls under Quality Control (QC).",
   },
   {
@@ -361,14 +361,14 @@ export const cluster_1 = [
     question:
       "Your department is analyzing patient feedback to improve service quality. This activity is part of which quality management component?",
     options: ["Quality Control (QC)", "Quality Assurance (QA)", "Quality Management (QM)", "None of the above"],
-    correctAnswer: 1,
+    correctAnswer: "Quality Assurance (QA)",
     rationale: "Patient feedback analysis is part of Quality Assurance (QA) to improve service quality.",
   },
   {
     id: 40,
     question: "Which of the following tests is performed to evaluate screen contact?",
     options: ["Spinning top test", "Wire mesh test", "Penetrometer test", "Star pattern test"],
-    correctAnswer: 1,
+    correctAnswer: "Wire mesh test",
     rationale: "The wire mesh test is used to evaluate screen-film contact in radiography.",
   },
   {
@@ -376,14 +376,14 @@ export const cluster_1 = [
     question:
       "These are equipment with parallel lines with varying spacing, used to measure the spatial resolution of an imaging system:",
     options: ["Line Pair Phantom", "Bar Phantom", "Cheese Phantom", "Duke Phantom"],
-    correctAnswer: 0,
+    correctAnswer: "Line Pair Phantom",
     rationale: "Line Pair Phantoms are used to measure the spatial resolution of imaging systems.",
   },
   {
     id: 42,
     question: "Geometric blur can be evaluated using all the following devices except:",
     options: ["Star pattern", "Slit camera", "Penetrometer", "Pinhole camera"],
-    correctAnswer: 2,
+    correctAnswer: "Penetrometer",
     rationale: "A penetrometer is used for contrast evaluation, not for measuring geometric blur.",
   },
   {
@@ -391,7 +391,7 @@ export const cluster_1 = [
     question:
       "In a department, 500 films were processed in one week. During a reject film analysis, it was found that 25 films were rejected. What is the overall reject rate for the week?",
     options: ["4%", "5%", "6%", "7%"],
-    correctAnswer: 1,
+    correctAnswer: "5%",
     rationale: "The reject rate is calculated as (25/500) * 100 = 5%.",
   },
   {
@@ -399,7 +399,7 @@ export const cluster_1 = [
     question:
       "If a radiology department aims to maintain a reject rate below 2%, how many films can be rejected out of 600 processed films to meet this goal?",
     options: ["10", "12", "14", "16"],
-    correctAnswer: 1,
+    correctAnswer: "12",
     rationale: "A 2% reject rate means 12 rejected films out of 600.",
   },
   {
@@ -412,7 +412,7 @@ export const cluster_1 = [
       "No, because the reject rate is 2.8%",
       "No, because the reject rate is 3.2%",
     ],
-    correctAnswer: 3,
+    correctAnswer: "No, because the reject rate is 3.2%",
     rationale: "The reject rate is (28/750) * 100 = 3.73%, which exceeds their 3% goal.",
   },
   {
@@ -420,7 +420,7 @@ export const cluster_1 = [
     question:
       "A hospital reviews their reject rate quarterly. Over the last quarter, they processed 1800 films and rejected 90 films. What is their quarterly reject rate?",
     options: ["4.5%", "5%", "5.5%", "6%"],
-    correctAnswer: 1,
+    correctAnswer: "5%",
     rationale: "The reject rate is calculated as (90/1800) * 100 = 5%.",
   },
   {
@@ -432,7 +432,7 @@ export const cluster_1 = [
       "Closing the shutters in the collimator fully should prevent any radiation from reaching the film.",
       "Useful for testing radiation safety when discharging capacitor discharge mobiles or making automatic exposures.",
     ],
-    correctAnswer: 2,
+    correctAnswer: "Closing the shutters in the collimator fully should prevent any radiation from reaching the film.",
     rationale:
       "The purpose of the shutter efficiency test is to ensure no radiation leaks through the collimator when closed.",
   },
@@ -440,14 +440,14 @@ export const cluster_1 = [
     id: 48,
     question: "In testing the accuracy of kVp, what is the margin for measured exposure?",
     options: ["+/- 2", "+/- 4", "+/- 5", "+/- 6"],
-    correctAnswer: 2,
+    correctAnswer: "+/- 5",
     rationale: "The acceptable margin for kVp accuracy is +/- 5.",
   },
   {
     id: 49,
     question: "What is the acceptable safelight handling time?",
     options: ["4 minutes", "2.5 minutes", "5 minutes", "3.5 minutes"],
-    correctAnswer: 3,
+    correctAnswer: "3.5 minutes",
     rationale: "The acceptable safelight handling time is 3.5 minutes to avoid film fogging.",
   },
   {
@@ -460,7 +460,7 @@ export const cluster_1 = [
       "Densities of uncovered and covered side of the film is unequal",
       "Area of higher density",
     ],
-    correctAnswer: 0,
+    correctAnswer: "Black fogging at the edge of the film",
     rationale: "Black fogging at the edge of the film indicates a white light leak in the darkroom.",
   },
 
@@ -473,7 +473,7 @@ export const cluster_1 = [
       "Densities of uncovered and covered side of the film is unequal",
       "Area of higher density",
     ],
-    correctAnswer: 0,
+    correctAnswer: "Black fogging at the edge of the film",
     rationale: "Black fogging at the edge of the film indicates a problem with cassette light leakage.",
   },
   {
@@ -486,7 +486,7 @@ export const cluster_1 = [
       "Densities of uncovered and covered side of the film is unequal",
       "Area of higher density",
     ],
-    correctAnswer: 2,
+    correctAnswer: "Densities of uncovered and covered side of the film is unequal",
     rationale:
       "Unequal densities between uncovered and covered sides of the film suggest poor contact between the screen and film.",
   },
@@ -499,7 +499,7 @@ export const cluster_1 = [
       "It enhances the color contrast of radiographic images",
       "It replaces the need for regular equipment maintenance",
     ],
-    correctAnswer: 1,
+    correctAnswer: "It helps in early detection of uniformity problems and resolution deficiencies",
     rationale: "Wire mesh testing helps detect early uniformity issues and resolution problems.",
   },
   {
@@ -507,7 +507,7 @@ export const cluster_1 = [
     question:
       "These are equipment with holes with varying densities, used to measure the contrast of an imaging system?",
     options: ["Line Pair Phantom", "Bar Phantom", "Cheese Phantom", "Duke Phantom"],
-    correctAnswer: 2,
+    correctAnswer: "Cheese Phantom",
     rationale:
       "Cheese Phantoms simulate the properties of human tissues and are used for measuring imaging system contrast.",
   },
@@ -515,14 +515,14 @@ export const cluster_1 = [
     id: 2055,
     question: "Used in Nuclear Medicine to measure spatial resolution.",
     options: ["Line Pair Phantom", "Bar Phantom", "Cheese Phantom", "Duke Phantom"],
-    correctAnswer: 1,
+    correctAnswer: "Bar Phantom",
     rationale: "Bar Phantoms are used in nuclear medicine to measure spatial resolution.",
   },
   {
     id: 2056,
     question: "What dose-response relationship do cataracts follow?",
     options: ["linear, threshold", "nonlinear, threshold", "nonlinear, nonthreshold", "sigmoid curve"],
-    correctAnswer: 1,
+    correctAnswer: "nonlinear, threshold",
     rationale:
       "Cataracts follow a nonlinear-threshold dose-response relationship, which means that they occur only above a certain dose.",
   },
@@ -536,7 +536,7 @@ export const cluster_1 = [
       "Early effects – high dose, acute",
       "Genetic Effects – damage to reproductive cells",
     ],
-    correctAnswer: 2,
+    correctAnswer: "Early effects – high dose, acute",
     rationale:
       "Early effects are those that occur after high doses of radiation and show symptoms shortly after exposure.",
   },
@@ -544,7 +544,7 @@ export const cluster_1 = [
     id: 2058,
     question: "According to their degree of radiosensitivity, which cell type is more sensitive?",
     options: ["spermatogonia", "nerve cells", "chondrocytes", "myocytes"],
-    correctAnswer: 0,
+    correctAnswer: "spermatogonia",
     rationale:
       "Spermatogonia are more radiosensitive due to their high rate of cell division and their immature state.",
   },
@@ -552,14 +552,14 @@ export const cluster_1 = [
     id: 2059,
     question: "Local tissue damage includes effects on ____.",
     options: ["Skin and Gonads", "Skin and Bone Marrow", "Gonads and Bone Marrow", "All of these"],
-    correctAnswer: 3,
+    correctAnswer: "All of these",
     rationale: "Local tissue damage occurs in skin, gonads, and bone marrow after radiation exposure.",
   },
   {
     id: 2060,
     question: "Which stage occurs within hours after a whole-body absorbed dose of 1 Gy (100 rad) or more?",
     options: ["Gastrointestinal stage", "CNS stage", "Hematologic stage", "Prodromal stage"],
-    correctAnswer: 3,
+    correctAnswer: "Prodromal stage",
     rationale:
       "The prodromal stage occurs shortly after exposure to high doses of radiation and includes symptoms such as nausea and vomiting.",
   },
@@ -567,7 +567,7 @@ export const cluster_1 = [
     id: 2061,
     question: "When cells in the lymphatic system are damaged, the body loses some of its ability to combat what?",
     options: ["Infection", "Bacteria", "Microorganisms", "Viruses"],
-    correctAnswer: 0,
+    correctAnswer: "Infection",
     rationale:
       "Damage to the lymphatic system impairs the immune system, reducing the body's ability to fight infection.",
   },
@@ -575,7 +575,7 @@ export const cluster_1 = [
     id: 2062,
     question: "What is the most severe syndrome with the most severe symptoms?",
     options: ["Cerebrovascular syndrome", "Gastrointestinal syndrome", "Hematologic syndrome", "Latent period"],
-    correctAnswer: 0,
+    correctAnswer: "Cerebrovascular syndrome",
     rationale: "Cerebrovascular syndrome is the most severe form, often resulting in death within hours to days.",
   },
   {
@@ -583,7 +583,7 @@ export const cluster_1 = [
     question:
       "What is a clinical sign and symptom in Hematologic Syndrome?  1.Reduction in WBC   2. NVD  3. Fever and infection",
     options: ["1 and 2", "2 and 3", "1 and 3", "1, 2 and 3"],
-    correctAnswer: 3,
+    correctAnswer: "1, 2 and 3",
     rationale: "All mentioned symptoms are characteristic of Hematologic Syndrome, which affects blood-forming organs.",
   },
   {
@@ -595,7 +595,7 @@ export const cluster_1 = [
       "Mature cells are more sensitive to radiation",
       "High metabolic activity increases radioresistance",
     ],
-    correctAnswer: 1,
+    correctAnswer: "Younger tissues and organs are more radiosensitive",
     rationale:
       "According to the law of Bergonie and Tribondeau, radiosensitivity is higher in younger tissues and organs.",
   },
@@ -603,14 +603,14 @@ export const cluster_1 = [
     id: 2065,
     question: "Which of the following conditions shows the longest latent period after exposure to ionizing radiation?",
     options: ["Acute Radiation Syndrome (ARS)", "Leukemia", "Skin Erythema", "Epilation"],
-    correctAnswer: 1,
+    correctAnswer: "Leukemia",
     rationale: "Leukemia has a long latent period, often developing years after exposure to ionizing radiation.",
   },
   {
     id: 2066,
     question: "Which of the following is an early response to radiation exposure?",
     options: ["Skin erythema", "Cancer", "Cataracts", "Radiation-induced cardiovascular disease"],
-    correctAnswer: 0,
+    correctAnswer: "Skin erythema",
     rationale:
       "Skin erythema occurs early after high doses of radiation exposure, while the other options are late effects.",
   },
@@ -618,7 +618,7 @@ export const cluster_1 = [
     id: 2067,
     question: "Which type of radiation unit is used to compare biologic effects for different types of radiation?",
     options: ["Air Kerma", "Absorbed Dose", "Effective Dose", "Equivalent Dose"],
-    correctAnswer: 2,
+    correctAnswer: "Effective Dose",
     rationale: "Equivalent Dose accounts for the different biologic effects of various types of radiation.",
   },
   {
@@ -630,28 +630,28 @@ export const cluster_1 = [
       "Radiation workers have a dose limit of 1 mSv annually",
       "The hands and feet of the general public have a dose limit of 500 mSv",
     ],
-    correctAnswer: 0,
+    correctAnswer: "The general public has a dose limit of 5 mSv annually for infrequent exposure",
     rationale: "For infrequent exposure, the general public has a dose limit of 5 mSv annually.",
   },
   {
     id: 2069,
     question: "What is the annual dose limit for the hands of a radiologic technologist?",
     options: ["30 mSv", "50 mSv", "300 mSv", "500 mSv"],
-    correctAnswer: 3,
+    correctAnswer: "500 mSv",
     rationale: "The dose limit for the hands of a radiologic technologist is 500 mSv per year.",
   },
   {
     id: 2070,
     question: "The dose of x-rays necessary to produce erythema in half of those exposed is approximately:",
     options: ["50 rad", "600 rad", "100 rad", "300 rad"],
-    correctAnswer: 2,
+    correctAnswer: "100 rad",
     rationale: "The skin erythema dose (SED50) to affect 50% of exposed individuals is about 100 rad.",
   },
   {
     id: 2071,
     question: "When an irradiated cell dies before the next mitosis, it is called:",
     options: ["Clonal death", "Cytogenetic death", "Interphase death", "Metaphase death"],
-    correctAnswer: 2,
+    correctAnswer: "Interphase death",
     rationale:
       "Interphase death refers to cell death that occurs during interphase, the phase of the cell cycle between mitotic divisions.",
   },
@@ -664,7 +664,7 @@ export const cluster_1 = [
       "Is shaped like an 'S'",
       "Suggests that even the smallest dose may be risky",
     ],
-    correctAnswer: 3,
+    correctAnswer: "Suggests that even the smallest dose may be risky",
     rationale:
       "A linear-nonthreshold relationship suggests that any amount of radiation carries a risk of biologic effect.",
   },
@@ -672,7 +672,7 @@ export const cluster_1 = [
     id: 2073,
     question: "Which of the following describes the combine process of intracellular repair and repopulation?",
     options: ["Enzymatic repair", "Recovery", "Tissue regeneration", "Resistance"],
-    correctAnswer: 1,
+    correctAnswer: "Recovery",
     rationale: "Recovery describes the process of intracellular repair and repopulation after damage.",
   },
   {
@@ -680,7 +680,7 @@ export const cluster_1 = [
     question:
       "When looking at a graph, this will appear as a straight line that originates from the y-axis above zero:",
     options: ["Nonlinear-threshold", "Linear-threshold", "Nonlinear-nonthreshold", "Linear-nonthreshold"],
-    correctAnswer: 3,
+    correctAnswer: "Linear-nonthreshold",
     rationale:
       "A linear-nonthreshold graph starts from the y-axis above zero and shows a direct relationship between dose and effect.",
   },
@@ -688,7 +688,7 @@ export const cluster_1 = [
     id: 2075,
     question: "Of the various macromolecules sensitive to radiation, the most sensitive is/are:",
     options: ["DNA", "Free radicals", "Proteins", "Lipids"],
-    correctAnswer: 0,
+    correctAnswer: "DNA",
     rationale:
       "DNA is the most radiosensitive macromolecule due to its central role in cellular function and reproduction.",
   },
@@ -696,7 +696,7 @@ export const cluster_1 = [
     id: 2076,
     question: "The principal radiation interaction within the human body is with:",
     options: ["Fat", "Carbohydrates", "Water", "Proteins"],
-    correctAnswer: 2,
+    correctAnswer: "Water",
     rationale:
       "Water makes up a large percentage of the human body, and radiation primarily interacts with water molecules.",
   },
@@ -704,7 +704,7 @@ export const cluster_1 = [
     id: 2077,
     question: "The dose range needed to induce permanent sterility in both ovaries is:",
     options: ["10-100 rad", "100-200 rad", "300-800 rad", "900-1200 rad"],
-    correctAnswer: 2,
+    correctAnswer: "300-800 rad",
     rationale: "A dose of 300-800 rad is required to induce permanent sterility.",
   },
   {
@@ -716,28 +716,28 @@ export const cluster_1 = [
       "Intestinal distress occurring 1 week after exposure",
       "Skin erythema occurring 2 weeks after exposure",
     ],
-    correctAnswer: 0,
+    correctAnswer: "Breast cancer",
     rationale: "Breast cancer is a late effect, not an early response to radiation exposure.",
   },
   {
     id: 2079,
     question: "The latent period for radiation-induced leukemia is considered to be:",
     options: ["1-3 years", "4-7 years", "8-12 years", "More than 12 years"],
-    correctAnswer: 1,
+    correctAnswer: "4-7 years",
     rationale: "The latent period for radiation-induced leukemia is typically 4-7 years after exposure.",
   },
   {
     id: 2080,
     question: "The annual dose limit for the hands of a radiologic technologist is:",
     options: ["30 mSv", "50 mSv", "300 mSv", "500 mSv"],
-    correctAnswer: 3,
+    correctAnswer: "500 mSv",
     rationale: "The dose limit for the hands of a radiologic technologist is 500 mSv per year.",
   },
   {
     id: 2081,
     question: "The latent period of radiation-induced leukemia is considered to be:",
     options: ["1-3 years", "4-7 years", "8-12 years", "> 12 years"],
-    correctAnswer: 1,
+    correctAnswer: "4-7 years",
     rationale:
       "Radiation-induced leukemia has a latent period of 4-7 years and an at-risk period of approximately 20 years.",
   },
@@ -745,28 +745,28 @@ export const cluster_1 = [
     id: 2082,
     question: "Which of the following radiation units compares the biologic effects for different types of radiation?",
     options: ["Air Kerma", "Absorbed Dose", "Effective Dose", "Equivalent Dose"],
-    correctAnswer: 3,
+    correctAnswer: "Equivalent Dose",
     rationale: "Equivalent Dose is used to compare the biologic effects of different types of radiation.",
   },
   {
     id: 2083,
     question: "What is the annual dose limit for the general public with infrequent exposure?",
     options: ["1 mSv", "5 mSv", "15 mSv", "50 mSv"],
-    correctAnswer: 1,
+    correctAnswer: "5 mSv",
     rationale: "The annual dose limit for the general public with infrequent exposure is 5 mSv.",
   },
   {
     id: 2084,
     question: "The annual dose limit for the hands of a radiologic technologist is:",
     options: ["30 mSv", "50 mSv", "300 mSv", "500 mSv"],
-    correctAnswer: 3,
+    correctAnswer: "500 mSv",
     rationale: "The dose limit for the hands of a radiologic technologist is 500 mSv per year.",
   },
   {
     id: 2085,
     question: "Which of the following is a source of secondary radiation?",
     options: ["X-rays", "Scatter radiation", "Leakage radiation", "All of the above"],
-    correctAnswer: 3,
+    correctAnswer: "All of the above",
     rationale:
       "Secondary radiation includes scatter radiation, leakage radiation, and radiation from any object that has been exposed to x-rays.",
   },
@@ -774,14 +774,14 @@ export const cluster_1 = [
     id: 2086,
     question: "Which of the following conditions shows the longest latent period after exposure to ionizing radiation?",
     options: ["Acute Radiation Syndrome (ARS)", "Leukemia", "Skin Erythema", "Epilation"],
-    correctAnswer: 1,
+    correctAnswer: "Leukemia",
     rationale: "Leukemia has a long latent period, often developing years after exposure to ionizing radiation.",
   },
   {
     id: 2087,
     question: "Which stage occurs within hours after a whole-body absorbed dose of 1 Gy (100 rad) or more?",
     options: ["Gastrointestinal stage", "CNS stage", "Hematologic stage", "Prodromal stage"],
-    correctAnswer: 3,
+    correctAnswer: "Prodromal stage",
     rationale:
       "The prodromal stage occurs shortly after exposure to high doses of radiation and includes symptoms such as nausea and vomiting.",
   },
@@ -789,14 +789,14 @@ export const cluster_1 = [
     id: 2088,
     question: "What is the most severe syndrome with the most severe symptoms?",
     options: ["Cerebrovascular syndrome", "Gastrointestinal syndrome", "Hematologic syndrome", "Latent period"],
-    correctAnswer: 0,
+    correctAnswer: "Cerebrovascular syndrome",
     rationale: "Cerebrovascular syndrome is the most severe form, often resulting in death within hours to days.",
   },
   {
     id: 2089,
     question: "What dose-response relationship do cataracts follow?",
     options: ["Linear, threshold", "Nonlinear, threshold", "Nonlinear, nonthreshold", "Sigmoid curve"],
-    correctAnswer: 1,
+    correctAnswer: "Nonlinear, threshold",
     rationale:
       "Cataracts follow a nonlinear-threshold dose-response relationship, meaning they occur only above a certain dose.",
   },
@@ -804,7 +804,7 @@ export const cluster_1 = [
     id: 2090,
     question: "Which of the following materials is used to protect against radiation exposure?",
     options: ["Concrete", "Lead", "Steel", "All of the above"],
-    correctAnswer: 3,
+    correctAnswer: "All of the above",
     rationale: "Lead, concrete, and steel are materials used to shield against radiation exposure.",
   },
   {
@@ -817,7 +817,7 @@ export const cluster_1 = [
       "Both are current dependent.",
       "Both operate by measuring the number of liberated electrons.",
     ],
-    correctAnswer: 3,
+    correctAnswer: "Both operate by measuring the number of liberated electrons.",
     rationale:
       "Both scintillation and solid-state detectors operate by measuring the number of liberated electrons when interacting with radiation.",
   },
@@ -825,14 +825,14 @@ export const cluster_1 = [
     id: 2092,
     question: "What is the active material of a film badge?",
     options: ["Aluminum", "Film", "Lithium fluoride", "Aluminum oxide"],
-    correctAnswer: 1,
+    correctAnswer: "Film",
     rationale: "Film is the active material in a film badge used for personnel radiation monitoring.",
   },
   {
     id: 2093,
     question: "Which of the following personnel radiation monitors is most sensitive?",
     options: ["Film badge", "Geiger-Mueller tube", "Scintillation detector", "TLD device"],
-    correctAnswer: 3,
+    correctAnswer: "TLD device",
     rationale: "TLD devices are the most sensitive radiation monitors, detecting doses as low as 50 μGya.",
   },
   {
@@ -844,7 +844,7 @@ export const cluster_1 = [
       "Is cheaper",
       "Is less energy-dependent in the diagnostic range",
     ],
-    correctAnswer: 2,
+    correctAnswer: "Is cheaper",
     rationale: "Film badges are generally cheaper compared to TLD devices.",
   },
   {
@@ -856,7 +856,7 @@ export const cluster_1 = [
       "Estimate radiation energy.",
       "Increase sensitivity to specific radiation.",
     ],
-    correctAnswer: 2,
+    correctAnswer: "Estimate radiation energy.",
     rationale:
       "Filters in film badges help estimate the energy of the radiation by analyzing the degree of luminescence.",
   },
@@ -865,7 +865,7 @@ export const cluster_1 = [
     question:
       "Which of the following materials can be used as an alternative to lead in a primary barrier?  (1.) Concrete  (2.) Steel  (3.) Gypsum   (4.) Wood",
     options: ["1 only", "1 and 2", "1, 2 and 3", "1, 2, 3 and 4"],
-    correctAnswer: 3,
+    correctAnswer: "1, 2, 3 and 4",
     rationale: "Concrete, steel, and gypsum can all be used as materials for primary barriers in radiation protection.",
   },
   {
@@ -873,7 +873,7 @@ export const cluster_1 = [
     question:
       "If a radiation therapy unit delivers a dose rate of 2 Gy/min, how much dose will be delivered in 15 minutes?",
     options: ["20 Gy", "25 Gy", "30 Gy", "35 Gy"],
-    correctAnswer: 2,
+    correctAnswer: "30 Gy",
     rationale: "At a dose rate of 2 Gy/min, the total dose delivered in 15 minutes is 30 Gy.",
   },
   {
@@ -881,7 +881,7 @@ export const cluster_1 = [
     question:
       "A point source of radiation has a dose rate of 10 mGy/hr at 1 meter. What will be the dose rate at 3 meters?",
     options: ["1.11 mGy/hr", "3.33 mGy/hr", "5.55 mGy/hr", "7.77 mGy/hr"],
-    correctAnswer: 0,
+    correctAnswer: "1.11 mGy/hr",
     rationale: "According to the inverse square law, the dose rate at 3 meters will be 1.11 mGy/hr.",
   },
   {
@@ -889,7 +889,7 @@ export const cluster_1 = [
     question:
       "A linear accelerator has a dose rate of 6 Gy/min at a specific point. If the treatment time is 5 minutes, what is the total dose delivered?",
     options: ["20 Gy", "25 Gy", "30 Gy", "35 Gy"],
-    correctAnswer: 2,
+    correctAnswer: "30 Gy",
     rationale: "At a dose rate of 6 Gy/min, the total dose delivered in 5 minutes is 30 Gy.",
   },
   {
@@ -897,7 +897,7 @@ export const cluster_1 = [
     question:
       "If the dose rate from a radiation source is 80 mGy/hr at 2 meters, what will be the dose rate at 4 meters?",
     options: ["10 mGy/hr", "20 mGy/hr", "40 mGy/hr", "80 mGy/hr"],
-    correctAnswer: 1,
+    correctAnswer: "20 mGy/hr",
     rationale: "Using the inverse square law, the dose rate at 4 meters will be reduced to 20 mGy/hr.",
   },
 ];

@@ -31,31 +31,29 @@ const Exam = () => {
   const label = set.label;
 
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [userAnswers, setUserAnswers] = useState<number[]>([]);
+  const [userAnswers, setUserAnswers] = useState<string[]>([]);
   const [showResults, setShowResults] = useState(false);
   const [questions, setQuestions] = useState<Question[]>([]);
 
   useEffect(() => {
     setQuestions(shuffleArray(questionData));
-  }, []);
+  }, [questionData]);
 
-  const currentQuestion: Question = questions[currentQuestionIndex];
-
-  const handleAnswer = (selectedOptionIndex: number) => {
-    setUserAnswers([...userAnswers, selectedOptionIndex]);
+  const handleAnswer = (selectedValue: string) => {
+    setUserAnswers((prev) => [...prev, selectedValue]);
 
     if (currentQuestionIndex + 1 < questions.length) {
-      setCurrentQuestionIndex(currentQuestionIndex + 1);
+      setCurrentQuestionIndex((i) => i + 1);
     } else {
       setShowResults(true);
     }
   };
 
   const calculateScore = () => {
-    return userAnswers.reduce((score, answer, idx) => {
-      if (answer === questions[idx].correctAnswer) {
-        score++;
-      }
+    return userAnswers.reduce((score, selectedValue, qIdx) => {
+      const q = questions[qIdx];
+      if (!q) return score;
+      if (selectedValue === q.correctAnswer) score++;
       return score;
     }, 0);
   };
@@ -66,14 +64,10 @@ const Exam = () => {
 
     const scoreData = { score, taken: Date.now(), label, totalQuestions };
 
-    if (!localStorage.getItem("scores")) {
-      const scores = [scoreData];
-      localStorage.setItem("scores", JSON.stringify(scores));
-    } else {
-      const scores = JSON.parse(localStorage.getItem("scores") as string);
-      scores.push(scoreData);
-      localStorage.setItem("scores", JSON.stringify(scores));
-    }
+    const raw = localStorage.getItem("scores");
+    const scores = raw ? JSON.parse(raw) : [];
+    scores.push(scoreData);
+    localStorage.setItem("scores", JSON.stringify(scores));
 
     return (
       <ExamResultSummary
@@ -90,13 +84,16 @@ const Exam = () => {
   }
 
   if (set.codeRequired && !isUnlocked) {
-    return router.push("/unlock");
+    router.push("/unlock");
+    return null;
   }
+
+  const currentQuestion: Question = questions[currentQuestionIndex];
 
   return (
     <div className="my-container">
       <HomeButton />
-      <div className="max-w-screen-xl mx-auto p-6 text-center min-h-[80vh]   flex flex-col justify-center gap-6">
+      <div className="max-w-screen-xl mx-auto p-6 text-center min-h-[80vh] flex flex-col justify-center gap-6">
         <div>
           <h1 className="text-xl font-bold text-pink-400">{set.label}</h1>
           <h2 className="text-2xl font-bold text-white">
@@ -109,7 +106,7 @@ const Exam = () => {
             <button
               key={index}
               className="bg-[#8a6fdf] text-white py-4 px-4 rounded hover:bg-blue-700 w-full lg:w-[48%]"
-              onClick={() => handleAnswer(index)}
+              onClick={() => handleAnswer(option)}
             >
               {option}
             </button>

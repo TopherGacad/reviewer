@@ -5,7 +5,7 @@ type Props = {
   score: number;
   totalQuestions: number;
   questions: Question[];
-  userAnswers: number[];
+  userAnswers: string[];
 };
 
 const ExamResultSummary: React.FC<Props> = ({ score, totalQuestions, questions, userAnswers }) => {
@@ -65,7 +65,8 @@ const ExamResultSummary: React.FC<Props> = ({ score, totalQuestions, questions, 
 
       <div className="flex flex-col lg:flex-row lg:flex-wrap gap-6 justify-center">
         {questions.map((question, idx) => {
-          const isCorrect = userAnswers[idx] === question.correctAnswer;
+          const selected = userAnswers[idx] ?? "";
+          const isCorrect = selected === question.correctAnswer;
 
           const cardBg = isCorrect ? "bg-green-100" : "bg-red-100";
           const cardBorder = isCorrect ? "border border-green-500" : "border-2 border-red-500";
@@ -81,13 +82,13 @@ const ExamResultSummary: React.FC<Props> = ({ score, totalQuestions, questions, 
                 <div className="flex items-center gap-2">
                   <span className="font-medium text-gray-700">Your answer:</span>
                   <span className={`font-semibold ${isCorrect ? "text-green-600" : "text-red-600"}`}>
-                    {question.options[userAnswers[idx]]}
+                    {selected || "—"}
                   </span>
                 </div>
                 {!isCorrect && (
                   <div className="flex items-center gap-2">
                     <span className="font-medium text-gray-700">Correct answer:</span>
-                    <span className="text-green-600 font-semibold">{question.options[question.correctAnswer]}</span>
+                    <span className="text-green-600 font-semibold">{question.correctAnswer}</span>
                   </div>
                 )}
               </div>
