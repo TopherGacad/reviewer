@@ -1,0 +1,14 @@
+services:
+  app:
+    build:
+      context: .
+    develop:
+      watch:
+        - path: ./
+          action: sync
+          target: /app/src
+        - path: ./package.json
+          action: rebuild
+    restart: always
+    ports:
+      - 3001:3000

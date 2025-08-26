@@ -131,4 +131,57 @@ export const modules = [
     category: "Special Exam",
     description: "",
   },
+  {
+    title: "Urinary System",
+    variant: "cyan",
+    href: "/exams/urinary_sys",
+    textClass: "text-[#197069]",
+    category: "Special Exam",
+    description: "",
+  },
+
+  {
+    title: "Skeletal System",
+    variant: "cyan",
+    href: "/exams/skeletal_sys",
+    textClass: "text-[#197069]",
+    category: "Special Exam",
+    description: "",
+  },
+
+  {
+    title: "Physiology",
+    variant: "cyan",
+    href: "/exams/physiology",
+    textClass: "text-[#197069]",
+    category: "Special Exam",
+    description: "",
+  },
+
+  {
+    title: "Reproductive System",
+    variant: "cyan",
+    href: "/exams/reproductive_sys",
+    textClass: "text-[#197069]",
+    category: "Special Exam",
+    description: "",
+  },
+
+  {
+    title: "Respiratory System",
+    variant: "cyan",
+    href: "/exams/respiratory_sys",
+    textClass: "text-[#197069]",
+    category: "Special Exam",
+    description: "",
+  },
+
+  {
+    title: "Cardiovascular System",
+    variant: "cyan",
+    href: "/exams/cardiovascular_sys",
+    textClass: "text-[#197069]",
+    category: "Special Exam",
+    description: "",
+  },
 ];

@@ -21,6 +21,12 @@ import { rpc } from "./questions/custom/umak/rpc";
 import { ipe_marva } from "./questions/custom/umak/ipe_marva";
 import { image_processing } from "./questions/custom/umak/image_processing";
 import { film_screen } from "./questions/custom/umak/film_screen";
+import { urinary_sys } from "./questions/custom/umak/urinary_sys";
+import { skeletal_sys } from "./questions/custom/umak/skeletal_sys";
+import { physiology } from "./questions/custom/umak/physiology";
+import { reproductive_sys } from "./questions/custom/umak/reproductive_sys";
+import { respiratory_sys } from "./questions/custom/umak/respiratory_sys";
+import { cardiovascular_sys } from "./questions/custom/umak/cardiovascular_sys";
 
 export const questions: Record<string, QuestionSet> = {
   module_1: {
@@ -108,5 +114,35 @@ export const questions: Record<string, QuestionSet> = {
   film_screen: {
     label: "Custom: Film Screen",
     questions: film_screen,
+  },
+
+  urinary_sys: {
+    label: "Custom: Urinary System",
+    questions: urinary_sys,
+  },
+
+  skeletal_sys: {
+    label: "Custom: Skeletal System",
+    questions: skeletal_sys,
+  },
+
+  physiology: {
+    label: "Custom: Human Anatomy and Physiology",
+    questions: physiology,
+  },
+
+  reproductive_sys: {
+    label: "Custom: Reproductive System",
+    questions: reproductive_sys,
+  },
+
+  respiratory_sys: {
+    label: "Custom: Respiratory System",
+    questions: respiratory_sys,
+  },
+
+  cardiovascular_sys: {
+    label: "Custom: Cardiovascular System",
+    questions: cardiovascular_sys,
   },
 };
