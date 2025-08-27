@@ -6,7 +6,7 @@ services:
       watch:
         - path: ./
           action: sync
-          target: /app/src
+          target: /app
         - path: ./package.json
           action: rebuild
     restart: always
